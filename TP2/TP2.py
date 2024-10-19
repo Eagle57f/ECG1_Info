@@ -344,3 +344,236 @@ f(3,26)
 f(0,5)"""
 
 # Ex 30
+
+"""def f(n):
+    s=0
+    for i in range(1,n+1):
+        for j in range(1, n+1):
+            s+=i+j
+    print(s)
+            
+f(100)
+
+def f(n):
+    s=0
+    i=1
+    while i<=n:
+        j=1
+        while j<=n:
+            s+=i+j
+            j+=1
+        i+=1
+    print(s)
+    
+f(100)
+
+
+def f(n):
+    s=0
+    for i in range(1,n+1):
+        for j in range(1, n+1):
+            s+=i*j
+    print(s)
+            
+f(100)
+
+
+def f(n):
+    s=0
+    i=1
+    while i<=n:
+        j=1
+        while j<=n:
+            s+=i*j
+            j+=1
+        i+=1
+    print(s)
+    
+f(100)
+
+def f(n):
+    s=0
+    for i in range(1,n+1):
+        for j in range(1, n+1):
+            s+=(3*i-2*j)**2
+    print(s)
+            
+f(100)
+
+
+def f(n):
+    s=0
+    i=1
+    while i<=n:
+        j=1
+        while j<=n:
+            s+=(3*i-2*j)**2
+            j+=1
+        i+=1
+    print(s)
+    
+f(100)"""
+
+
+# Ex 31
+
+"""def f(n):
+    s=0
+    for i in range(1,n+1):
+        for j in range(1, n+1):
+            s+=min(i,j)
+    print(s)
+            
+f(100)
+
+def f(n):
+    s=0
+    i=1
+    while i<=n:
+        j=1
+        while j<=n:
+            s+=min(i,j)
+            j+=1
+        i+=1
+    print(s)
+    
+f(100)
+
+def f(n):
+    s=0
+    for i in range(1,n+1):
+        for j in range(1, n+1):
+            s+=i if i<=j else j
+            
+    print(s)
+
+f(100)
+
+def f(n):
+    s=0
+    for i in range(1,n+1):
+        for j in range(1, n+1):
+            s+=max(i,j)
+    print(s)
+            
+f(100)
+
+def f(n):
+    s=0
+    i=1
+    while i<=n:
+        j=1
+        while j<=n:
+            s+=max(i,j)
+            j+=1
+        i+=1
+    print(s)
+    
+f(100)
+
+def f(n):
+    s=0
+    for i in range(1,n+1):
+        for j in range(1, n+1):
+            s+=i if i>=j else j
+            
+    print(s)
+
+f(100)
+
+def f(n):
+    s=0
+    for i in range(1,n+1):
+        for j in range(1, n+1):
+            s+=abs(i-j)
+    print(s)
+            
+f(100)
+
+def f(n):
+    s=0
+    i=1
+    while i<=n:
+        j=1
+        while j<=n:
+            s+=abs(i-j)
+            j+=1
+        i+=1
+    print(s)
+    
+f(100)
+
+def f(n):
+    s=0
+    for i in range(1,n+1):
+        for j in range(1, n+1):
+            s+=i-j if i-j>=0 else j-i
+            
+    print(s)
+
+f(100)"""
+
+# Ex 32
+"""def d(a,b,p):
+    def f(x): return x**3+3*x-5
+    while abs(b-a)>p:
+        m=(a+b)/2
+        if (f(a)*f(m)<0):
+            b=m
+        else:
+            a=m
+        print(m)
+    
+d(10,1,0.0001)
+
+from math import exp
+
+def d(a,b,p):
+    def f(x): return x+exp(x)-8
+    while abs(b-a)>p:
+        m=(a+b)/2
+        if (f(a)*f(m)<0):
+            b=m
+        else:
+            a=m
+        print(m)
+    
+d(100,-100,0.0001)
+
+def d(a,b,p):
+    def f(x): return (exp(x)-exp(-x))/2-4
+    while abs(b-a)>p:
+        m=(a+b)/2
+        if (f(a)*f(m)<0):
+            b=m
+        else:
+            a=m
+        print(m)
+    
+d(100,-100,0.0001)"""
+
+# Ex 33
+"""def f(x):
+    print(bin(x))
+f(100)
+
+def f(x):
+    b=[]
+    while x!=0 and x!=1:
+        b.append(x%2)
+        x//=2
+    b.append(x)
+    print("".join(str(i) for i in b[::-1]))
+f(100)"""
+
+# Ex 35
+from math import sqrt, log
+
+def f(x): print(x+7 if x>=1 else x**2)
+f(100)
+
+def f(x): print(abs(x-1) if x<3 else sqrt(x**2+1) if x>=3 and x<8 else log(x-6))
+f(100)
+
+def f(x): print(x if x==1 else (x+5)/(x+2) if x>=-1 and x<6 else x**2+2*x-3)
+f(100)
