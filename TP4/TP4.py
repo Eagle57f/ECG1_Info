@@ -151,3 +151,88 @@ print(triangle[n][k])"""
         return 1
     return bino(n - 1, k - 1) + bino(n - 1, k)
 print(bino(8,5))"""
+
+# Ex 11
+"""from math import sqrt
+def f(a:int|float,b:int|float,c:int|float,u0:int|float,u1:int|float,n:int=None, *, value:bool=True) -> str:
+    '''
+    Return the value of u_n if value=True, otherwise return the general expression of u_n.
+    The n parameter can be omitted if value=False.
+    
+        Parameters:
+            a (int|float): Value of a in ax^2+bx+c=0
+            b (int|float): Value of b in ax^2+bx+c=0
+            c (int|float): Value of c in ax^2+bx+c=0
+            u0 (int|float): Value of u_0
+            u1 (int|float): Value of u_1
+            n (int): Number of iterations
+            value (bool): Set to True to return the value of u_n, False to return the general expression of u_n.
+
+        Returns:
+            un (str): Value of u_n if value=True, otherwise the general expression of u_n.
+    '''
+    delta=b**2-4*a*c
+    if delta>0:
+        x1=(-b+sqrt(delta))/(2*a)
+        x2=(-b-sqrt(delta))/(2*a) 
+        
+        alpha=(u1-x2*u0)/(x1-x2)
+        beta=u0-alpha
+        
+        un=alpha*x1**n+beta*x2**n
+        return f"u_{n}={un}" if value==True else f"u_n={alpha}*{x1}^n*{beta}*{x2}^n"
+        
+    elif delta==0:
+        x0=(-b)/(2*a) 
+
+        alpha=(u1-x0*u0)/(x0)
+        beta=u0
+        
+        un=(alpha*n+beta)*x0**n
+        return f"u_{n}={un}" if value==True else f"u_n=({alpha}*n+{beta})*{x0}^n"
+    else: return None
+    
+    
+print(f(1,2,1,10,1,-2, value=True))
+print(f(1,2,1,10,1,-2, value=False))"""
+
+# Ex 12
+from math import sin, log, sqrt, exp, cos
+
+from math import pi, e
+def fa(a,b,n,mode="sin"):
+    def f(x): return sin(x) if mode=="sin" else log(x) if mode=="log" else exp(-x**2) if mode =="exp" else sqrt(1-x**2)
+    Sinf=0
+    for k in range(1,n+1):
+        Sinf+=((b-a)/n)*f(a+(((k-1)*(b-a))/n))
+    Ssup=0
+    for k in range(1,n+1):
+        Ssup+=((b-a)/n)*f(a+(((k)*(b-a))/n))
+    
+    def derivate_max(mode, interval, n):
+        a, b = interval
+        x = a
+        max_abs_value = 0
+
+        while x <= b:
+            try:
+                abs_value = abs(cos(x) if mode=="sin" else 1/x if mode=="log" else -2*x*exp(-x**2) if mode=="exp" else (-x)/(2*sqrt(1-x**2)))
+                if abs_value > max_abs_value:
+                    max_abs_value = abs_value
+            except ZeroDivisionError:
+                pass
+
+            x += 1/n
+            
+
+        return max_abs_value
+    
+     
+    erreur = ((b-a)**2)/(2*n)*abs(derivate_max(mode, (a,b), n))
+    return (Sinf, Ssup), erreur
+
+print(fa(0,pi/2,1000,"sin"))
+print(fa(1,e,1000,"log"))
+print(fa(0,1,1000,"exp"))
+print(fa(-1,0,1000,"sqrt"))
+
