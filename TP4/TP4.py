@@ -197,18 +197,24 @@ print(f(1,2,1,10,1,-2, value=True))
 print(f(1,2,1,10,1,-2, value=False))"""
 
 # Ex 12
-from math import sin, log, sqrt, exp, cos
+"""from math import sin, log, sqrt, exp, cos
 
 from math import pi, e
-def fa(a,b,n,mode="sin"):
+def fa(a,b,n,mode="sin",methode="rect"):
     def f(x): return sin(x) if mode=="sin" else log(x) if mode=="log" else exp(-x**2) if mode =="exp" else sqrt(1-x**2)
     Sinf=0
-    for k in range(1,n+1):
-        Sinf+=((b-a)/n)*f(a+(((k-1)*(b-a))/n))
+    if methode=="rect":
+        for k in range(1,n+1):
+            Sinf+=((b-a)*(f(a+((k-1)*(b-a))/n)+f(a+((k)*(b-a))/n)))/(2*n)
+    else:
+        for k in range(1,n+1):
+            Sinf+=((b-a)/n)*f(a+(((k-1)*(b-a))/n))
     Ssup=0
-    for k in range(1,n+1):
-        Ssup+=((b-a)/n)*f(a+(((k)*(b-a))/n))
+    if methode=="rect":
+        for k in range(1,n+1):
+            Ssup+=((b-a)/n)*f(a+(((k)*(b-a))/n))
     
+
     def derivate_max(mode, interval, n):
         a, b = interval
         x = a
@@ -227,12 +233,45 @@ def fa(a,b,n,mode="sin"):
 
         return max_abs_value
     
-     
-    erreur = ((b-a)**2)/(2*n)*abs(derivate_max(mode, (a,b), n))
-    return (Sinf, Ssup), erreur
+    if methode=="rect": 
+        erreur = ((b-a)**2)/(2*n)*abs(derivate_max(mode, (a,b), n))
+        return (Sinf, Ssup), erreur
+    else:
+        return Sinf
 
-print(fa(0,pi/2,1000,"sin"))
-print(fa(1,e,1000,"log"))
-print(fa(0,1,1000,"exp"))
-print(fa(-1,0,1000,"sqrt"))
+print(fa(0,pi/2,100000,"sin","rect"))
+print(fa(1,e,100000,"log","rect"))
+print(fa(0,1,100000,"exp","rect"))
+print(fa(-1,0,100000,"sqrt","rect"))
 
+print(fa(0,pi/2,100000,"sin","trap"))
+print(fa(1,e,100000,"log","trap"))
+print(fa(0,1,100000,"exp","trap"))
+print(fa(-1,0,100000,"sqrt","trap"))"""
+
+# Ex 13
+def nb_chiffres(n):
+    b = n
+    m = 0
+    while b >= 1:
+        m = m + 1
+        b = n // 10**m
+    return m
+
+n = eval(input("Entrer un entier naturel n: "))
+print(nb_chiffres(n)) # Ce script renvoie le nombre de chiffre d'un nombre (Ex: 123993 est composé de 6 chiffres).
+                      # Pour ce faire, le programme va compter le mobre de fois qu'on peut diviser ce nombre par 10 avant qu'il devienne inférieur à 1.
+                      # Ce nombre de fois étant le nombre de chiffres composant le nombre (car on déplace la virgule de 1 vers la gauche à chaque fois).
+
+def nb_chiffres_recursive(n):
+    if n < 10:
+        return 1 # Si n<10 (cas de base, arrête la recursion)
+    else:
+        return 1 + nb_chiffres_recursive(n // 10) # Les +1 s'additionnent seulement a la fin des appels recursifs. Ils restent en attente jusqu'a la fin de la recursion.
+
+                                                  # Lorsque le cas de base est atteint, on commence à "remonter" dans la pile d'appels, en ajoutant le +1 de chaque appel précédent. Pour 1234 :
+                                                  # Le quatrième appel (nb_chiffres_recursive(1)) retourne 1.
+                                                  # Ce 1 retourne au troisième appel (nb_chiffres_recursive(12)), qui avait 1 + nb_chiffres_recursive(1). Donc, il devient 1 + 1 = 2.
+                                                  # Ensuite, ce 2 retourne au deuxième appel (nb_chiffres_recursive(123)), qui devient 1 + 2 = 3.
+                                                  # Enfin, ce 3 retourne au premier appel (nb_chiffres_recursive(1234)), qui devient 1 + 3 = 4.
+print(nb_chiffres_recursive(n))
