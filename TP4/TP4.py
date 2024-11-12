@@ -250,7 +250,7 @@ print(fa(0,1,100000,"exp","trap"))
 print(fa(-1,0,100000,"sqrt","trap"))"""
 
 # Ex 13
-def nb_chiffres(n):
+"""def nb_chiffres(n):
     b = n
     m = 0
     while b >= 1:
@@ -274,4 +274,52 @@ def nb_chiffres_recursive(n):
                                                   # Ce 1 retourne au troisième appel (nb_chiffres_recursive(12)), qui avait 1 + nb_chiffres_recursive(1). Donc, il devient 1 + 1 = 2.
                                                   # Ensuite, ce 2 retourne au deuxième appel (nb_chiffres_recursive(123)), qui devient 1 + 2 = 3.
                                                   # Enfin, ce 3 retourne au premier appel (nb_chiffres_recursive(1234)), qui devient 1 + 3 = 4.
-print(nb_chiffres_recursive(n))
+print(nb_chiffres_recursive(n))"""
+
+# Ex 14   => A revoir
+"""def a(n):
+    if n==0:
+        return 1 # Valeur de u_0
+    return (a(n-1)+1)/(a(n-1)+2)
+print(a(10))
+
+from math import sqrt
+def b(n):
+    if n==0:
+        return 1
+    return sqrt(b(n-1)+1)
+def bbis(n): return b(n+1)
+print(bbis(10)) # Demander si on a le droit d'utiliser une deuxième fonction.
+
+def c(n):
+    if n==0:
+        return 1
+    return c(n-1)**2-2
+def cbis(n): return c(n+1)
+print(cbis(10)) # De même que pour b)"""
+
+# Ex 15
+"""def u(a,n):
+    if n==0:
+        return 1
+    return (1/2)/(u(a,n-1)+(a/u(a,n-1)))
+def ubis(n): return u(n+1)
+print(u(3,10))"""
+
+# Ex 16
+import random as rd
+def f():
+    return rd.choice(["Roger", "Monique"])
+print(f())
+def f():
+    return ["Roger", "Monique"][rd.randint(0,1)]
+print(f())
+
+def g(n):
+    l=[f() for i in range(n)]
+    for i in range(n):
+        print(i)
+    cR = l.count("Roger")
+    cM = l.count("Monique")
+    print(f"Le plus tombé:", "Monique" if cM> cR else "Roger" if cR > cM else "Les deux sont tombés le même nombre de fois")
+g(10)
