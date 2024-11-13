@@ -307,7 +307,7 @@ def ubis(n): return u(n+1)
 print(u(3,10))"""
 
 # Ex 16
-import random as rd
+"""import random as rd
 def f():
     return rd.choice(["Roger", "Monique"])
 print(f())
@@ -322,4 +322,23 @@ def g(n):
     cR = l.count("Roger")
     cM = l.count("Monique")
     print(f"Le plus tombé:", "Monique" if cM> cR else "Roger" if cR > cM else "Les deux sont tombés le même nombre de fois")
-g(10)
+g(10)"""
+
+# Ex 17
+# a)
+phrase = "Aujourd hui en info je fais un peu de python pour être au point le jour du concours et je m amuse beaucoup"
+# b)
+"""i=0
+for k in phrase:
+    i+=1
+print(i) # On compte les espaces"""
+"""print(len(phrase)) # On compte les espaces"""
+# c)
+"""print(phrase.count("e")+phrase.count("E"))"""
+# d)
+"""print(phrase.count("a")+phrase.count("A"))"""
+# e)
+"""def nombre(phrase, lettre):
+    return phrase.count(lettre)"""
+# f)
+"""print(nombre(phrase, "m"))"""
