@@ -304,7 +304,7 @@ print(cbis(10)) # De même que pour b)"""
         return 1
     return (1/2)/(u(a,n-1)+(a/u(a,n-1)))
 def ubis(n): return u(n+1)
-print(u(3,10))"""
+print(ubis(3,10))"""
 
 # Ex 16
 """import random as rd
@@ -325,20 +325,23 @@ def g(n):
 g(10)"""
 
 # Ex 17
-# a)
+"""# a)
 phrase = "Aujourd hui en info je fais un peu de python pour être au point le jour du concours et je m amuse beaucoup"
 # b)
-"""i=0
+i=0
 for k in phrase:
     i+=1
-print(i) # On compte les espaces"""
-"""print(len(phrase)) # On compte les espaces"""
+print(i) # On compte les espaces
+print(len(phrase)) # On compte les espaces
 # c)
-"""print(phrase.count("e")+phrase.count("E"))"""
+print(phrase.count("e")+phrase.count("E"))
 # d)
-"""print(phrase.count("a")+phrase.count("A"))"""
+print(phrase.count("a")+phrase.count("A"))
 # e)
-"""def nombre(phrase, lettre):
-    return phrase.count(lettre)"""
+def nombre(phrase, lettres:str, separated):
+    '''letters or str, separated by |
+    if separated=True, upper and lower case letters are distinguished
+    else upper and lower case letters are not distinguished (use lower case letters)'''
+    return sum([phrase.count(l) for l in lettres.split("|")]) if separated==True else sum([phrase.lower().count(l) for l in lettres.split("|")])
 # f)
-"""print(nombre(phrase, "m"))"""
+print(nombre(phrase, "a|A| |m", False))"""
