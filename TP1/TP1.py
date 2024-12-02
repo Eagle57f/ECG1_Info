@@ -21,3 +21,28 @@ a=5
 b=2
 a,b=b,a
 print(a,b)
+
+# Voir sujet
+
+# Ex 4
+# Voir sujet
+
+a,b,c=2,3,-5
+b=2
+c=3*a
+print(a,b,c)
+
+# Ex 5
+# Voir sujet
+
+from fractions import Fraction
+print((1+Fraction(3,4))/(Fraction(5,2)+Fraction(7,3)))
+# OU
+print(Fraction((1+Fraction(3,4)),(Fraction(5,2)+Fraction(7,3))))
+
+print((Fraction(19,15)-Fraction(3,7))/(Fraction(11,2)+Fraction(8,35)))
+# OU
+print(Fraction((Fraction(19,15)-Fraction(3,7)),(Fraction(11,2)+Fraction(8,35))))
+
+# Ex 6
+# Voir sujet
