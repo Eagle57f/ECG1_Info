@@ -35,8 +35,7 @@
     ==, <, >, !=, <=, >=
     ```
 
-TP 2
-- Introductions au scripts (hors terminal)
+## TP 2 - Boucles for et while, tests
 - Fonctions : 
     ```python
     input, eval
