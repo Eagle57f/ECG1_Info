@@ -23,7 +23,7 @@
     ```
 - Bibliothèque Fractions 
     ```python
-    import Fractions
+    from Fractions import *
     a=Fractions(numérateur, dénominateur)
     a.numerator
     a.denominator
