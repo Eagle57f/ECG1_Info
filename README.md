@@ -57,7 +57,7 @@
     for i in range(a, b):
         p*=...
     print(p)
-    # Limites avec b très grands
+    # Limites avec b très grand
     ```
 - Boucles while
     ```python
