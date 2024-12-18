@@ -92,7 +92,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
 ## TP 2 - Boucles for et while, tests
 - **Fonction input et eval:**
 
-    La fonction `input()` permet de demander une valeur à l'utilisateur. Cette valeur peux être n'importe quelle chaîne de caractères. La valeur retournée par input sera toujours une chaîne de caractère `int`, même si on entre une valeur comme `34`, `1.8` ou `True`.
+    La fonction `input()` permet de demander une valeur à l'utilisateur. Cette valeur peux être n'importe quelle chaîne de caractères. La valeur retournée par input sera toujours une chaîne de caractère `str`, même si on entre une valeur comme `34`, `1.8` ou `True`.
 
     `input` prend 1 argument qui est le texte affiché dans la demande de la valeur (Exemple: `input("Donnez un entier entre 1 et 10: ")`).
 
