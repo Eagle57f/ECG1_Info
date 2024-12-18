@@ -212,7 +212,8 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     ```
 
 - **Algorithme de dichotomie**
-    Qu'il faudra apprendre soit par coeur, soit savoir le retrouver rapidement.
+
+    Qu'il faudra soit apprendre par coeur, soit savoir retrouver rapidement.
     ```python
     def d(a,b,f,p): # a et b deux réels entre lesquels il faut trouver alpha tel que f(alpha)=0, f la fonction et p la précision (par exemple 0.001)
         while abs(b-a)>p:
