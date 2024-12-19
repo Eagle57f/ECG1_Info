@@ -8,7 +8,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
 - **Vidéos (ou playlists):**
     - Graven (FR): https://www.youtube.com/watch?v=psaDHhZ0cPs&list=PLMS9Cy4Enq5JmIZtKE5OHJCI3jZfpASbR
     - Docstring (FR): https://www.youtube.com/watch?v=LamjAFnybo0&list=PLXDBYzqsqO3Wut-gQktoqJ30eaOel0hgb
-    -FormationVidéo (FR): https://www.youtube.com/watch?v=HWxBtxPBCAc&list=PLrSOXFDHBtfHg8fWBd7sKPxEmahwyVBkC
+    - FormationVidéo (FR): https://www.youtube.com/watch?v=HWxBtxPBCAc&list=PLrSOXFDHBtfHg8fWBd7sKPxEmahwyVBkC
     - NetworkChuck (EN): https://www.youtube.com/watch?v=mRMmlo_Uqcs
     - freeCodeCamp.org (EN): https://www.youtube.com/watch?v=LHBE6Q9XlzI
 
@@ -233,7 +233,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
 - **Algorithme de dichotomie (version sans fonctions)**
 
     Qu'il faudra soit apprendre par coeur, soit savoir retrouver rapidement.
-    
+
     ```python
     p=eval(input("Précision: "))
     a=eval(input("Valeur de a: "))
