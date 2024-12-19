@@ -96,7 +96,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
 
     `input` prend 1 argument qui est le texte affiché dans la demande de la valeur (Exemple: `input("Donnez un entier entre 1 et 10: ")`).
 
-    Pour obtenir un `int` lorsque l'utilisateur entre un entier, un `float` lorsque l'utilisateur entre un nombre décimal, ..., il faut utiliser la focntion eval, qui grâce au contexte (donc grâce à la "forme" de la valeur : 2 => int, 1.2 => float, ...), eval va transformer le `str` en un autre type.
+    Pour obtenir un `int` lorsque l'utilisateur entre un entier, un `float` lorsque l'utilisateur entre un nombre décimal, ..., il faut utiliser la fonction eval, qui grâce au contexte (donc grâce à la "forme" de la valeur : 2 => int, 1.2 => float, ...), eval va transformer le `str` en un autre type.
 
     ```python
     print(input("Donne un nombre")) # L'utilisateur entre 2 => le programme affiche "2"
