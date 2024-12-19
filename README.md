@@ -8,8 +8,6 @@
 - **[Cours TP 5](TP5/README.md)** (A faire)
 - **[Cours TP 6](TP6/README.md)** (A faire)
 
-![34f5hm.jpg](https://github.com/user-attachments/assets/39f1dbbe-36e8-49d7-bd84-9d7b9e602ebe)
-
 
 ## Quelques ressources pour approfondir
   
