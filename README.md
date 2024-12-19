@@ -217,6 +217,20 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     print(random.randint(4,14)) # Renvoie un int entre 4 inclu et 14 inclu
     ```
 
+- **Algorithme de conversion en binaire (base 2)**
+
+    ```python
+    n = eval(input("Donnez un nombre entier naturel: "))
+    nbin = ""
+    if n == 0:
+        nbin = "0"
+    else:
+        while n > 0:
+            nbin = str(n%2) + nbin # Il faut ajouter les valeurs à gauche
+            n //= 2
+    print(nbin)
+    ```
+
 - **Algorithme de dichotomie**
 
     Qu'il faudra soit apprendre par coeur, soit savoir retrouver rapidement.
@@ -228,6 +242,6 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
             else:
                 a=(a+b)/2
         return [a,(a+b)/2,b] # x est compris entre a et b, et (a+b)/2 est le milieu de cet intervalle, donc la meilleure approximation
-    def f(x): return x**3+3*x-5 #Mettre ici la fonction qu'il faut étudier, par exemple x**3+3*x-5
+    def f(x): return x**3+3*x-5 # Mettre ici la fonction qu'il faut étudier, par exemple x**3+3*x-5
     print(d(10,1,f,0.0001))
     ```

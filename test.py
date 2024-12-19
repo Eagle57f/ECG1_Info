@@ -34,11 +34,22 @@ print(S)"""
 
 
 
-from random import randint
+"""from random import randint
 n=randint(1,12)
 if n<5:
     print(n**3)
 elif n==8:
     print(n*3)
 else:
-    print(0)
+    print(0)"""
+    
+    
+n = eval(input("Donnez un nombre entier naturel: "))
+nbin = ""
+if n == 0:
+    nbin = "0"
+else:
+    while n > 0:
+        nbin += str(n % 2)
+        n //= 2
+print(nbin[::-1])
