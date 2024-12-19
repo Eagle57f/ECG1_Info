@@ -105,7 +105,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
 
     |math.exp(x)|math.log(x)|math.log2(x)|math.log10(x)|
     |:-:|:-:|:-:|:-:|
-    |eˣ `math.exp(0)==1`|ln(x) `math.ln(1)==0`|Logarithme base 2 `math.log2(8)==3`|Logarithme base 10 `math.log10(10)==2`|
+    |eˣ `math.exp(0)==1`|ln(x) `math.log(1)==0`|Logarithme base 2 `math.log2(8)==3`|Logarithme base 10 `math.log10(10)==2`|
 
 - **Tests**
 
