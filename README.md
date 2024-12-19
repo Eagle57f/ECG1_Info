@@ -230,10 +230,25 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
             n //= 2
     print(nbin)
     ```
-
-- **Algorithme de dichotomie**
+- **Algorithme de dichotomie (version sans fonctions)**
 
     Qu'il faudra soit apprendre par coeur, soit savoir retrouver rapidement.
+    
+    ```python
+    p=eval(input("Précision: "))
+    a=eval(input("Valeur de a: "))
+    b=eval(input("Valeur de b: "))
+    while abs(b-a)>p:
+        m=(a+b)/2
+        if (a**3+3*a-5)*(m**3+3*m-5)<0:
+            b=m
+        else:
+            a=m
+    print([a,m,b]) # x est compris entre a et b, et (a+b)/2 est le milieu de cet intervalle, donc la meilleure approximation
+    ```
+
+- **Algorithme de dichotomie (version avec fonctions)**
+
     ```python
     def d(a,b,f,p): # a et b deux réels entre lesquels il faut trouver alpha tel que f(alpha)=0, f la fonction et p la précision (par exemple 0.001)
         while abs(b-a)>p:

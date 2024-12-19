@@ -44,7 +44,7 @@ else:
     print(0)"""
     
     
-n = eval(input("Donnez un nombre entier naturel: "))
+"""n = eval(input("Donnez un nombre entier naturel: "))
 nbin = ""
 if n == 0:
     nbin = "0"
@@ -52,4 +52,16 @@ else:
     while n > 0:
         nbin += str(n % 2)
         n //= 2
-print(nbin[::-1])
+print(nbin[::-1])"""
+
+
+p=eval(input("Précision: "))
+a=eval(input("Valeur de a: "))
+b=eval(input("Valeur de b: "))
+while abs(b-a)>p:
+    m=(a+b)/2
+    if (a**3+3*a-5)*(m**3+3*m-5)<0:
+        b=m
+    else:
+        a=m
+print([a,m,b])
