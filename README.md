@@ -211,7 +211,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     print(random.random()) # Renvoie un float entre O inclu et 1 exclu
     print(random.random()*10) # Renvoie un float entre 0 inclu et 10 exclu
     print(random.random()*10+4) # Renvoie un float entre 4 inclu et 14 exclu
-    print(int(random.random()*10+5) # Renvoie un int entre 4 inclu et 14 inclu
+    print(int(random.random()*10+5)) # Renvoie un int entre 4 inclu et 14 inclu
 
     # Hors programme pour le TD1 et 2:
     print(random.randint(4,14)) # Renvoie un int entre 4 inclu et 14 inclu
