@@ -1,6 +1,6 @@
 ## TP 1 - Introduction à l'algorithmique, présentation de python et exemples
 
-**[Revenir au Sommaire](./README.md)**
+**[Revenir au Sommaire](../README.md)**
 
 Les parties en _italique_ sont des approfondissements qui pourraient être utiles.
 

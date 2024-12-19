@@ -1,6 +1,6 @@
 ## TP 2 - Boucles for et while, tests
 
-**[Revenir au Sommaire](./README.md)**
+**[Revenir au Sommaire](../README.md)**
 
 Les parties en _italique_ sont des approfondissements qui pourraient être utiles.
 
