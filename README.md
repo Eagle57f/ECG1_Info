@@ -4,7 +4,7 @@
 - **[Cours TP 1](TP1/README.md)**
 - **[Cours TP 2](TP2/README.md)**
 - **[Cours TP 3](TP3/README.md)**
-- **[Cours TP 4](TP4/README.md)** (A faire)
+- **[Cours TP 4](TP4/README.md)**
 - **[Cours TP 5](TP5/README.md)** (A faire)
 - **[Cours TP 6](TP6/README.md)** (A faire)
 
