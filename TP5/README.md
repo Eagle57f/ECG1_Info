@@ -41,7 +41,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     matrice1=np.ones((2, 3))
     print(matrice1) # Renvoie [[1 1 1] [1 1 1]]
     identite=np.eye(4)
-    print(identite) # Renvoie [[1 0 0] [0 1 0] [0 0 1]]
+    print(identite) # Renvoie [[1. 0. 0. 0.] [0. 1. 0. 0.] [0. 0. 1. 0.] [0. 0. 0. 1.]]
     ```
 
 - Fonctions et opérations sur les matrices
