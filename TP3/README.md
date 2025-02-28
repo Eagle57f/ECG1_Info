@@ -107,7 +107,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     print(liste[1]) # Renvoie [4,5,6]
     ```
 
-    Pour extraire une partie de liste, on utilise la syntaxe `[debut:fin:pas]` (on appelle cette manipulation `slicing`):
+    Pour extraire une partie de liste, on utilise la syntaxe `[debut:fin:pas]` _(on appelle cette manipulation `slicing`)_:
     La valeur finale n'est pas atteinte.
     ```python
     liste=[1,2,3,4,5,6,7,8,9]

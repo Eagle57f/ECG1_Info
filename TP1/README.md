@@ -28,18 +28,38 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     |:-:|:-:|:-:|:-:|:-:|
     |Valeur absolue `abs(-3)==3`|Supprime la partie fractionnaire `int(-3.7)==-3`|Maximum `max(2,3,6)==6`|Minimum `min(2,3,6)==2`|Arrondi à 10^(-n) près `round(3.577,1)==3.6`|
 
-- **Première bibliothèque: math**
+- **Importer une bibliothèque**
 
+    Une bibliothèque est un ensemble de fonctions et variables prédéfinies.
     Il faut toujours importer la bibliothèque avant d'utiliser une fonction ou variable de cette bibliothèque. Le plus souvent, il est préférable d'importer les bibliothèques au début du fichier, afin quelles soient disponibles dans tout le fichier.
     
-    Pour importer la bibliothèque math:
+    Pour importer une bibliothèque, par exemple la bibliothèque math:
     ```python
     import math
-    print(math.pi)
-    # OU
+    print(math.pi) # Affiche la valeur de pi
+    ```
+    Pour importer une fonction ou variable d'une bibliothèque:
+    ```python
+    from math import pi
+    print(pi) # Affiche la valeur de pi
+    ```
+    Pour importer toutes les fonctions et variables d'une bibliothèque:
+    ```python
     from math import *
     print(pi)
     ```
+    Il est possible de renommer une bibliothèque _(on appelle ce nouveau nom un alias)_, on l'utilisera surtout pour les bibliothèques `numpy` et `matplotlib.pyplot`:
+    ```python
+    import math as m
+    print(m.pi)
+
+    import numpy as np
+    import matplotlib.pyplot as plt
+    ```
+
+- **Première bibliothèque: math**
+    
+    Il faut importer lal bibliothèque math avant d'utiliser les focntions ou variables de cette bibliothèque.
 
     |math.pi|math.floor(x)|math.sqrt(x)|
     |:-:|:-:|:-:|
