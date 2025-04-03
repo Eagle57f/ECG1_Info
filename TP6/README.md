@@ -60,7 +60,8 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     plt.grid() # Affiche une grille
     plt.legend(["Ligne rouge",
                 "Points de la ligne"], loc="upper left")
-    # Affiche une légende, chaque élément de la liste correspond à un élément du graphique, dans l'ordre du code (plt.plot est en premier dans le code, donc "Ligne rouge" est en premier dans la liste)
+    # Affiche une légende, chaque élément de la liste correspond à un élément du graphique,
+    # dans l'ordre du code (plt.plot est en premier dans le code, donc "Ligne rouge" est en premier dans la liste)
     
     plt.show() # Affiche le graphique
     ```

@@ -6,7 +6,7 @@
 - **[Cours TP 3](TP3/README.md)**
 - **[Cours TP 4](TP4/README.md)**
 - **[Cours TP 5](TP5/README.md)**
-- **[Cours TP 6](TP6/README.md)** (A faire)
+- **[Cours TP 6](TP6/README.md)**
 
 
 ## Quelques ressources pour approfondir
