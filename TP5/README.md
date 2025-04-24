@@ -129,4 +129,4 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
 Fiche de l'académie de Versailles (donnée par la prof):
 [Fiche PDF](/tuto_python_matplotlib.pdf)
 
-Lien vers l'académie de versailles: [https://phychim.ac-versailles.fr/IMG/pdf/tuto_python_matplotlib.pdf](https://phychim.ac-versailles.fr/IMG/pdf/tuto_python_matplotlib.pdf)
+Lien vers l'Académie de Versailles: [https://phychim.ac-versailles.fr/IMG/pdf/tuto_python_matplotlib.pdf](https://phychim.ac-versailles.fr/IMG/pdf/tuto_python_matplotlib.pdf)
