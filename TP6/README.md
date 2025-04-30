@@ -127,3 +127,9 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
 - Exemples
 
     Voir [Révisions sur les fonctions.ipynb](../TPs%20Capytale/Révisions%20sur%20les%20fonctions.ipynb).
+
+
+Fiche de l'Académie de Versailles (donnée par la prof):
+[Fiche PDF](../TP6/tuto_python_matplotlib.pdf)
+
+Lien vers le ficher sur le site de l'Académie de Versailles: [https://phychim.ac-versailles.fr/IMG/pdf/tuto_python_matplotlib.pdf](https://phychim.ac-versailles.fr/IMG/pdf/tuto_python_matplotlib.pdf)

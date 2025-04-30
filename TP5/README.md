@@ -126,7 +126,3 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     print(np.linalg.inv(matrice22)) # Renvoie [[-2. 1.], [ 1.5 -0.5]]
     ```
 
-Fiche de l'académie de Versailles (donnée par la prof):
-[Fiche PDF](../TP5/tuto_python_matplotlib.pdf)
-
-Lien vers l'Académie de Versailles: [https://phychim.ac-versailles.fr/IMG/pdf/tuto_python_matplotlib.pdf](https://phychim.ac-versailles.fr/IMG/pdf/tuto_python_matplotlib.pdf)
