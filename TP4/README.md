@@ -148,7 +148,5 @@ def fonction(x):
     ```
 
 
-<div style="display: flex; justify-content: space-between;">
-  <a href="../TP3/README.md" style="font-weight:bold">← Chapitre 3</a>
-  <a href="../TP5/README.md" style="font-weight:bold">Chapitre 4 →</a>
-</div>
+**[← Cours TP 3](../TP3/README.md)**
+**[Cours TP 5 →](../TP5/README.md)**

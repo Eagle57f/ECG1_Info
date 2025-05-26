@@ -240,7 +240,5 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     print(liste_d)  # Renvoie [1, 2, 3]
     ```
 
-<div style="display: flex; justify-content: space-between;">
-    <a href="../TP2/README.md" style="font-weight:bold">← Cours TP 2</a>
-    <a href="../TP4/README.md" style="font-weight:bold">Cours TP 4 →</a>
-</div>
+**[← Cours TP 2](../TP2/README.md)**
+**[Cours TP 4 →](../TP4/README.md)**

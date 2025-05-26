@@ -175,7 +175,5 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     print(d(10,1,f,0.0001))
     ```
 
-<div style="display: flex; justify-content: space-between;">
-  <a href="../TP1/README.md" style="font-weight:bold">← Cours TP 1</a>
-  <a href="../TP3/README.md" style="font-weight:bold">Cours TP 3 →</a>
-</div>
+**[← Cours TP 1](../TP1/README.md)**
+**[Cours TP 3 →](../TP3/README.md)**
