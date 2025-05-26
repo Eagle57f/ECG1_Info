@@ -126,3 +126,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     print(np.linalg.inv(matrice22)) # Renvoie [[-2. 1.], [ 1.5 -0.5]]
     ```
 
+<div style="display: flex; justify-content: space-between;">
+  <a href="../TP4/README.md" style="font-weight:bold">← Cours TP 4</a>
+  <a href="../TP6/README.md" style="font-weight:bold">Cours TP 6 →</a>
+</div>

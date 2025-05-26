@@ -133,3 +133,8 @@ Fiche de l'Académie de Versailles (donnée par la prof):
 [Fiche PDF](../TP6/tuto_python_matplotlib.pdf)
 
 Lien vers le fichier sur le site de l'Académie de Versailles: [https://phychim.ac-versailles.fr/IMG/pdf/tuto_python_matplotlib.pdf](https://phychim.ac-versailles.fr/IMG/pdf/tuto_python_matplotlib.pdf)
+
+
+<div style="text-align: left">
+  <a href="../TP5/README.md" style="font-weight:bold">← Cours TP 5</a>
+</div>

@@ -90,3 +90,8 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     |Egal|Strict. inf.|Strict. sup.|N'est pas égal|Inf. ou égal|Sup. ou égal|
 
     Si le test est vrai (Ex: `6==2*3`), alors il renvoie `True`, sinon `False`.
+
+
+<div style="text-align: right">
+  <a href="../TP2/README.md" style="font-weight:bold">Cours TP 2 →</a>
+</div>

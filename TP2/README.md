@@ -174,3 +174,8 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     def f(x): return x**3+3*x-5 # Mettre ici la fonction qu'il faut étudier, par exemple x**3+3*x-5
     print(d(10,1,f,0.0001))
     ```
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="../TP1/README.md" style="font-weight:bold">← Cours TP 1</a>
+  <a href="../TP3/README.md" style="font-weight:bold">Cours TP 3 →</a>
+</div>

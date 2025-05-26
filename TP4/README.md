@@ -146,3 +146,9 @@ def fonction(x):
     print(count_digits(0))      # Affiche 1
     print(count_digits(-98765)) # Affiche 5
     ```
+
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="../TP3/README.md" style="font-weight:bold">← Chapitre 3</a>
+  <a href="../TP5/README.md" style="font-weight:bold">Chapitre 4 →</a>
+</div>
