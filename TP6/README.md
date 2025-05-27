@@ -5,6 +5,7 @@
 Les parties en _italique_ sont des approfondissements qui pourraient être utiles.
 
 - Présentation de Matplotlib
+
     Matplotlib permet de créer des représentations graphiques de données. Il est possible de créer des graphiques en 2D et 3D, des histogrammes, des courbes, etc.
 
     Pour importer Matplotlib, il faut utiliser la commande suivante:
@@ -13,6 +14,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     ```
 
 - Création de graphiques simples
+
     Pour créer un graphique simple, il faut utiliser la fonction `plot` de Matplotlib. Il est possible de personnaliser le graphique en ajoutant des titres, des légendes, des axes, etc.
 
     ```python
