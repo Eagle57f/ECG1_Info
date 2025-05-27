@@ -1,12 +1,12 @@
 # Cours d'informatique en ECG1-2
 
 ## Sommaire
-- **[Cours TP 1](TP1/README.md)**
-- **[Cours TP 2](TP2/README.md)**
-- **[Cours TP 3](TP3/README.md)**
-- **[Cours TP 4](TP4/README.md)**
-- **[Cours TP 5](TP5/README.md)**
-- **[Cours TP 6](TP6/README.md)**
+- **[Cours 1 - Bases du Python](TP1/README.md)**
+- **[Cours 2 - Boucles for et while, tests](TP2/README.md)**
+- **[Cours 3 - Listes](TP3/README.md)**
+- **[Cours 4 - Fonctions](TP4/README.md)**
+- **[Cours 5 - Matrices avec Numpy](TP5/README.md)**
+- **[Cours 6 - Graphiques avec Matplotlib](TP6/README.md)**
 
 
 ## Quelques ressources pour approfondir
