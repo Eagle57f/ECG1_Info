@@ -67,7 +67,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     Pour changer la valeur d'un élément on utilise l'opérateur `=`:
 
     ```python
-    liste=["1","b", True]
+    liste=["1", 23.3, True]
     liste[1]=23.3
     print(liste) # Renvoie ['1', 23.3, True]
     ```
