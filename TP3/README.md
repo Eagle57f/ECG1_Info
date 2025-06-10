@@ -8,7 +8,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
 
     Une liste est une structure de données qui contient une collection d'objets Python. Ces objets peuvent être des `int`, `float`, `str`, `bool`, d'autres listes, des fonctions, ... Une liste est une structure ordonnée, ce qui signifie que l'ordre des éléments est préservé.
 
-    Une liste s'écrit avec des corchets, et un virgule entre chaque objet de la liste.
+    Une liste s'écrit avec des crochets, et une virgule entre chaque objet de la liste.
 
     ```python
     liste_a = [1, -3, "Bonjour", "", True, 1.06, ["Deuxième", "liste"]]

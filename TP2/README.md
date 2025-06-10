@@ -76,7 +76,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
 
 - **Boucles `while`**
 
-    La boucle `while` est utilisée lorsqu'on veut répeter une action tant qu'une condition n'est pas atteinte.
+    La boucle `while` est utilisée lorsqu'on veut répéter une action tant qu'une condition n'est pas atteinte.
 
     Par exemple, pour afficher les entiers entre 0 et n-1:
 
