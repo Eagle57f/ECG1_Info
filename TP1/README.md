@@ -22,6 +22,23 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     ```
     Python est sensible à la casse, donc `Variable != variable`.
 
+- **Le point-virgule**
+
+    En python, le point-virgule `;` n'est pas obligatoire à la fin d'une ligne. Il est possible de l'utiliser pour séparer plusieurs instructions sur une même ligne, mais ce n'est **vraiment** pas recommandé ([PEP-0008](https://peps.python.org/pep-0008/#other-recommendations): "_Compound statements (multiple statements on the same line) are generally discouraged_").
+
+    ```python
+    a=1; b=2; print(a+b) # Affiche 3
+    ```
+
+    Dans certains cas, l'utilisation du point-virgule peut même donner des erreurs, comme pour les instructions `if`, `for`, `while` et `def`.
+
+    ```py
+    print('Hi') ; for i in range (4): print ('Hello')
+    # Affiche: SyntaxError: invalid syntax
+    ```
+
+    Il est donc préférable de ne pas l'utiliser.
+
 - **Premières fonctions**
 
     |abs()|int()|max()|min()|round()|
@@ -85,6 +102,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     print(a*b, a/b, a+b, a-b, a//b, a**b) # Renvoie: 1/6 3/8 11/12 -5/12 0 0.3968502629920499  Mêmes opérations que pour les nombres (int, float).
     ```
 - **Symboles de tests**
+
     |==|<|>|!=|<=|>=|
     |:-:|:-:|:-:|:-:|:-:|:-:|
     |Egal|Strict. inf.|Strict. sup.|N'est pas égal|Inf. ou égal|Sup. ou égal|
