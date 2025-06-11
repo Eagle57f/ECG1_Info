@@ -8,6 +8,7 @@
 - **[Cours 5 - Matrices avec Numpy](TP5/README.md)**
 - **[Cours 6 - Graphiques avec Matplotlib](TP6/README.md)**
 
+## Lien vers le dépôt GitHub : [https://github.com/Eagle57f/ECG1_Info/](https://github.com/Eagle57f/ECG1_Info/)
 
 ## Quelques ressources pour approfondir
   
