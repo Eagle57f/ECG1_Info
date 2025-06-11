@@ -88,6 +88,7 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     Il faut en premier connaître deux fonctions de `numpy`:
     - `linspace`: permet de créer une matrice de valeurs entre deux bornes, avec un nombre de valeurs donné. Par exemple, `numpy.linspace(0, 10, 5)` crée une matrice de  5 valeurs entre 0 et 10: `[0., 2.5, 5., 7.5, 10.]`
     - `arange`: permet de créer un tableau de valeurs entre deux bornes, avec un pas donné. Par exemple, `numpy.arange(0, 10, 2)` crée un tableau de valeurs entre 0 et 10, avec un pas de 2: `[0, 2, 4, 6, 8]`
+
     Il faudra choisir entre ces deux fonctions en fonction de ce que l'on veut faire.
 
     Ces deux fonction génerent une matrice ligne. Il est donc possible d'utliser les fonctions mathématiques de `numpy` sur ces matrices. Par exemple, `numpy.exp` permet de calculer le sinus de chaque valeur de la matrice.

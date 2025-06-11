@@ -41,9 +41,9 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
 
 - **Premières fonctions**
 
-    |abs()|int()|max()|min()|round()|
+    |abs(x)|int(x)|max(a,b,c,...)|min(a,b,c,...)|round(x, n)|
     |:-:|:-:|:-:|:-:|:-:|
-    |Valeur absolue `abs(-3)==3`|Supprime la partie fractionnaire `int(-3.7)==-3`|Maximum `max(2,3,6)==6`|Minimum `min(2,3,6)==2`|Arrondi à 10^(-n) près `round(3.577,1)==3.6`|
+    |Valeur absolue `abs(-3)==3`|Supprime la partie fractionnaire `int(-3.7)==-3`|Maximum `max(2.5,-3,6)==6`|Minimum `min(2.5,-3,6)==-3`|Arrondi à 10^(-n) près `round(3.577,1)==3.6`|
 
 - **Importer une bibliothèque**
 
