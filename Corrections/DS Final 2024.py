@@ -159,7 +159,7 @@ print(piece)
 
 def simulX():
     i=0
-    for _ in range(3):
+    for k in range(3):
         x=random()
         if x<1/3:
             i+=1
