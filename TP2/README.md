@@ -127,8 +127,18 @@ Les parties en _italique_ sont des approfondissements qui pourraient être utile
     print(random.random()*10+4) # Renvoie un float entre 4 inclu et 14 exclu
     print(int(random.random()*10+5)) # Renvoie un int entre 4 inclu et 14 inclu
 
-    # Hors programme pour le TD1 et 2:
     print(random.randint(4,14)) # Renvoie un int entre 4 inclu et 14 inclu
+    ```
+
+    Ces fonctions existent également dans la bibliothèque `numpy`, mais certaines différences sont présentes. Par exemple, `numpy.random.randint(a, b)` renvoie un int entre a inclus et b **exclus**, alors que `random.randint(a, b)` renvoie un int entre a inclus et b **inclus**.
+
+    ```python
+    import numpy as np
+    import random as rd
+    print(np.random.random()) # Renvoie un float entre 0 inclu et 1 exclu
+
+    print(rd.randint(4,14)) # Renvoie un int entre 4 inclu et 14 inclu
+    print(np.random.randint(4,15)) # Renvoie un int entre 4 inclu et 15 exclu
     ```
 
 - **Algorithme de conversion en binaire (base 2)**

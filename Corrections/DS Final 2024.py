@@ -1,4 +1,4 @@
-# Der erreurs peuvent êtes présentes dans ce fichier, si vous en trouvez, merci de me le signaler.
+# Des erreurs peuvent êtes présentes dans ce fichier, si vous en trouvez, merci de me le signaler.
 # J'ai surtout répondu aux questions python, pas à celles de maths.
 
 # Sujet : DS Final 2024
