@@ -1,7 +1,7 @@
 # Exercice 1: Simulation d'une variable aléatoire, sans remise
 
 
-#   On tire aléatoirement trois cartes d'un jeu de n cartes (sans remise), n>4, les cartes sont
+#   On tire aléatoirement trois cartes d'un jeu de n+1 cartes (sans remise), n>4, les cartes sont
 #   numérotées de 0 à n.
 #   X est la variable aléatoire qui représente la somme des valeurs des cartes tirées.
 #
