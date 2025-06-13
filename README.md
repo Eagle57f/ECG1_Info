@@ -8,6 +8,15 @@
 - **[Cours 5 - Matrices avec Numpy](TP5/README.md)**
 - **[Cours 6 - Graphiques avec Matplotlib](TP6/README.md)**
 
+## Exercices/Ressources/Corrections (Liens vers GitHub)
+- **[Exercices](Ressources-Exercices-Corrections/Exercices)**
+    - [Exercices Variables aléatoires](Ressources-Exercices-Corrections/Exercices/Exercices%20Variables%20Aléatoires.py)
+- **[Corrections](Ressources-Exercices-Corrections/Corrections)**
+    - [Correction du DS Final 2024](Ressources-Exercices-Corrections/Corrections/DS%20Final%202024.py)
+- **[Ressources](Ressources-Exercices-Corrections/Ressources)**
+    - [Toutes les fonctions de 1ère année](Ressources-Exercices-Corrections/Ressources/Toutes%20les%20fonctions%20de%201ère%20année.py)
+
+
 ## Lien vers le dépôt GitHub : [https://github.com/Eagle57f/ECG1_Info/](https://github.com/Eagle57f/ECG1_Info/)
 
 ## Quelques ressources pour approfondir
