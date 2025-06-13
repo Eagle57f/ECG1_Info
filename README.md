@@ -17,7 +17,7 @@
     - [Toutes les fonctions de 1ère année](Ressources-Exercices-Corrections/Ressources/Toutes%20les%20fonctions%20de%201ère%20année.py)
 
 
-## Lien vers le dépôt GitHub : [https://github.com/Eagle57f/ECG1_Info/](https://github.com/Eagle57f/ECG1_Info/)
+### Lien vers le dépôt GitHub : [https://github.com/Eagle57f/ECG1_Info/](https://github.com/Eagle57f/ECG1_Info/)
 
 ## Quelques ressources pour approfondir
   
