@@ -66,7 +66,7 @@ fractions.Fraction(...).denominator
 
 rd.random
 rd.randint
-rd.choice # Pas sur si dans le programme
+rd.choice # Pas dans le programme mais très utile, permet de choisir un élément au hasard dans une liste
 
 plt.plot
 plt.scatter
