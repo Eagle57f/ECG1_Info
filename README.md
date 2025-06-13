@@ -10,7 +10,7 @@
 
 ## Exercices/Ressources/Corrections (Liens vers GitHub)
 - **[Exercices](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Exercices/)**
-    - [Exercices Variables aléatoires](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Exercices/Exercices%20Variables%20Aléatoires.py)
+    - [Exercices Probabilités](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Exercices/Exercices%20Probabilités.py) (Tirages avec remise, Chaîne de Markov)
 - **[Corrections](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Corrections/)**
     - [Correction du DS Final 2024](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Corrections/DS%20Final%202024.py)
 - **[Ressources](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Ressources/)**
