@@ -54,7 +54,7 @@
 
 
 
-# Correction de l'exercice 1:
+# Correction possible de l'exercice 1:
 
 # 1)
 
@@ -106,7 +106,7 @@ plt.show()
 
 
 
-# Correction de l'exercice 2:
+# Correction possible de l'exercice 2:
 
 # 1)
 
