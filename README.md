@@ -9,10 +9,10 @@
 - **[Cours 6 - Graphiques avec Matplotlib](TP6/README.md)**
 
 ## Exercices/Ressources/Corrections (Liens vers GitHub)
-- **[Exercices](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Exercices/)**
-    - [Exercices Probabilités](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Exercices/Exercices%20Probabilités.py) (Tirages avec remise, Chaîne de Markov)
-    - [Exercice Méthode de Monte-Carlo](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Exercices/Exercice%20Méthode%20de%20Monte-Carlo.py) (Programme à trous qu'il faut compléter)
-- **[Corrections](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Corrections/)**
+- **[Exercices](/Ressources-Exercices-Corrections/Exercices/README.md)**
+    - [Exercices Probabilités](/Ressources-Exercices-Corrections/Exercices/README.md#exercices-probabilités)
+    - [Exercice Méthode de Monte-Carlo](/Ressources-Exercices-Corrections/Exercices/README.md#méthode-de-monte-carlo) (Programme à trous qu'il faut compléter)
+- **[Corrections de DS](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Corrections/)**
     - [Correction du DS Final 2024](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Corrections/DS%20Final%202024.py)
 - **[Ressources](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Ressources/)**
     - [Toutes les fonctions de 1ère année](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Ressources/Toutes%20les%20fonctions%20de%201ère%20année.py)

@@ -1,14 +1,16 @@
 # Exercices
 
 ## Sommaire
-- [Exercices Probabilités](#ex_proba)
-    - [Exercice 1: Simulation d'une variable aléatoire, sans remise](#ex_proba_2)
-    - [Exercice 2: Chaîne de Markov](#ex_proba_2)
-- [Exercice Méthode de Monte-Carlo](#ex_monte_carlo)
+- [Exercices Probabilités](#exercices-probabilit%C3%A9s)
+    - [Exercice 1: Simulation d'une variable aléatoire, sans remise](#exercice-1-simulation-dune-variable-al%C3%A9atoire-sans-remise)
+    - [Exercice 2: Chaîne de Markov](#exercice-2-cha%C3%AEne-de-markov)
+- [Exercice Méthode de Monte-Carlo](#m%C3%A9thode-de-monte-carlo)
 
-<h2 name="ex_proba">Exercices Probabilités</h2>
+## Exercices Probabilités
 
-<h3 name="ex_proba_1">Exercice 1: Simulation d'une variable aléatoire, sans remise</h3>
+### Exercice 1: Simulation d'une variable aléatoire, sans remise
+
+#### [Correction]()
 
 On tire aléatoirement trois cartes d'un jeu de n cartes (sans remise), n>4, les cartes sont numérotées de 0 à n-1. X est la variable aléatoire qui représente la somme des valeurs des cartes tirées.
 
@@ -27,7 +29,9 @@ On tire aléatoirement trois cartes d'un jeu de n cartes (sans remise), n>4, les
    d. Ajoutez un titre, des labels aux axes, une grille et une légende.
 
 
-<h3 name="ex_proba_2">Exercice 2: Chaîne de Markov</h3>
+### Exercice 2: Chaîne de Markov
+
+#### [Correction]()
 
   On considère un système avec 3 états numérotés 0, 1, et 2. Le système évolue de manière probabiliste selon les transitions suivantes:
   - Au temps t=0, le système est dans l'état 0 avec une probabilité de 1.
@@ -44,23 +48,25 @@ On tire aléatoirement trois cartes d'un jeu de n cartes (sans remise), n>4, les
 3) Créez une fonction pourcentages_etats(etats) qui prend en entrée la liste des états et renvoie le pourcentage de fois où le système est dans l'état 0, 1 ou 2 après k transitions. Affichez ces pourcentages pour k=20.
 
 
+## Méthode de Monte-Carlo
+
+#### [Correction](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Exercices/Exercice%20M%C3%A9thode%20de%20Monte-Carlo.py)
+
+Méthode de Monte-Carlo pour calculer l'aire sous la courbe de `exp(x)` entre a et b.
 
 
-<h2 name="ex_monte_carlo">Méthode de Monte-Carlo</h2>
-
-Méthode de Monte-Carlo pour calculer l'aire sous la courbe de exp(x) entre a et b.
-
-
-Explication de la méthode de Monte-Carlo :
-1. On choisit un intervalle [a, b] et on génère n_points points aléatoires dans un rectangle de largeur b-a et de hauteur max(exp(t)) pour t allant de a à b.
-2. On compte combien de ces points sont sous la courbe de exp(x).
+Explication de la méthode de Monte-Carlo pour la fonction `exp`:
+1. On choisit un intervalle [a, b] et on génère n_points points aléatoires dans un rectangle de largeur b-a et de hauteur `max(exp(t))` pour t allant de a à b.
+2. On compte combien de ces points sont sous la courbe de `exp(x)`.
 3. L'aire sous la courbe est approximée par le ratio du nombre de points sous la courbe sur le nombre total de points, multiplié par l'aire du rectangle.
 
 Consigne :
 
-La fonction monte_carlo_exp prend en entrée les bornes a et b de l'intervalle ainsi que le nombre de points n_points à générer. Elle renvoie l'aire sous la courbe de la fonction exp entre a et b, et affiche un graphique avec la courbe de exp entre a et b, ainsi qu'un nuage de points, avec les points sous la courbe en vert et ceux au-dessus en rouge.
+La fonction `monte_carlo_exp` prend en entrée les bornes a et b de l'intervalle ainsi que le nombre de points n_points à générer. Elle renvoie l'aire sous la courbe de la fonction exp entre a et b, et affiche un graphique avec la courbe de exp entre a et b, ainsi qu'un nuage de points, avec les points sous la courbe en vert et ceux au-dessus en rouge.
 
-Complétez la fonction monte_carlo_exp.
+Complétez la fonction `monte_carlo_exp`.
+
+BONUS: Transformez la fonction `monte_carlo_exp` pour qu'elle fonctionne pour n'importe quelle fonction mathématique.
 
 ```python
 import random as rd
