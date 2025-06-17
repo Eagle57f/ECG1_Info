@@ -68,3 +68,7 @@ plt.title("Moyenne de X en fonction de n et pourcentage de fois où X > 2*n,\npo
 plt.grid()
 plt.legend()
 plt.show()
+
+# Pour tirer aléatoirement k éléments distincts d'une liste de n éléments (k<=n), on peut
+# utiliser la fonction sample(liste, k) de la bibliothèque random, elle n'est pas
+# obligatoire mais peut être utile.

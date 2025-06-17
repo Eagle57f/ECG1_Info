@@ -8,7 +8,7 @@
 - **[Cours 5 - Matrices avec Numpy](TP5/README.md)**
 - **[Cours 6 - Graphiques avec Matplotlib](TP6/README.md)**
 
-## Exercices/Ressources/Corrections (Liens vers GitHub)
+## Exercices/Ressources/Corrections
 - **[Exercices](/Ressources-Exercices-Corrections/Exercices/README.md)**
     - [Exercices Probabilités](/Ressources-Exercices-Corrections/Exercices/README.md#exercices-probabilités)
     - [Exercice Méthode de Monte-Carlo](/Ressources-Exercices-Corrections/Exercices/README.md#méthode-de-monte-carlo) (Programme à trous qu'il faut compléter)
