@@ -10,7 +10,7 @@
 
 ### Exercice 1: Simulation d'une variable aléatoire, sans remise
 
-#### [Correction]()
+#### [Correction](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Exercices/Exercice%20Probabilit%C3%A9s%201.py)
 
 On tire aléatoirement trois cartes d'un jeu de n cartes (sans remise), n>4, les cartes sont numérotées de 0 à n-1. X est la variable aléatoire qui représente la somme des valeurs des cartes tirées.
 
@@ -31,7 +31,7 @@ On tire aléatoirement trois cartes d'un jeu de n cartes (sans remise), n>4, les
 
 ### Exercice 2: Chaîne de Markov
 
-#### [Correction]()
+#### [Correction](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Exercices/Exercice%20Probabilit%C3%A9s%202.py)
 
   On considère un système avec 3 états numérotés 0, 1, et 2. Le système évolue de manière probabiliste selon les transitions suivantes:
   - Au temps t=0, le système est dans l'état 0 avec une probabilité de 1.
