@@ -14,6 +14,7 @@
     - [Exercice Méthode de Monte-Carlo](/Ressources-Exercices-Corrections/Exercices/README.md#méthode-de-monte-carlo) (Programme à trous qu'il faut compléter)
 - **[Corrections de DS](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Corrections/)**
     - [Correction du DS Final 2024](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Corrections/DS%20Final%202024.py)
+    - [Correction du DS Final 2025](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Corrections/DS%20Final%202025.py)
 - **[Ressources](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Ressources/)**
     - [Toutes les fonctions de 1ère année](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Ressources/Toutes%20les%20fonctions%20de%201ère%20année.py)
 
