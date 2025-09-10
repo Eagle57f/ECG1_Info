@@ -1,5 +1,7 @@
 # Cours d'informatique en ECG1-2
 
+## Site du cours d'informatique de deuxième année : [https://eagle57f.github.io/ECG2_Info/](https://eagle57f.github.io/ECG2_Info/)
+
 ## Sommaire
 - **[Cours 1 - Bases du Python](TP1/README.md)**
 - **[Cours 2 - Boucles for et while, tests](TP2/README.md)**
