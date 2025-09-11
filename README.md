@@ -2,6 +2,8 @@
 
 ### Site du cours d'informatique de deuxième année : [https://eagle57f.github.io/ECG2_Info/](https://eagle57f.github.io/ECG2_Info/)
 
+### Dépôt GitHub de première année : [![Repo GitHub](https://img.shields.io/badge/GitHub-ECG1_Info-blue?logo=github)](https://github.com/Eagle57f/ECG1_Info/)
+
 ## Sommaire
 - **[Cours 1 - Bases du Python](TP1/README.md)**
 - **[Cours 2 - Boucles for et while, tests](TP2/README.md)**
@@ -20,8 +22,6 @@
 - **[Ressources](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Ressources/)**
     - [Toutes les fonctions de 1ère année](https://github.com/Eagle57f/ECG1_Info/blob/main/Ressources-Exercices-Corrections/Ressources/Toutes%20les%20fonctions%20de%201ère%20année.py)
 
-
-### Dépôt GitHub : [![Repo GitHub](https://img.shields.io/badge/GitHub-ECG1_Info-blue?logo=github)](https://github.com/Eagle57f/ECG1_Info/)
 
 ## Quelques ressources pour approfondir
   
