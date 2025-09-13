@@ -24,10 +24,7 @@
 
 
 
-<details>
-<summary>Quelques ressources pour approfondir</summary>
-
-
+- ## Quelques ressources pour approfondir
 - **Vidéos (ou playlists) :**
     - **Graven (FR) :** [Lien](https://www.youtube.com/watch?v=psaDHhZ0cPs&list=PLMS9Cy4Enq5JmIZtKE5OHJCI3jZfpASbR)
     - **Docstring (FR) :** [Lien](https://www.youtube.com/watch?v=LamjAFnybo0&list=PLXDBYzqsqO3Wut-gQktoqJ30eaOel0hgb)
@@ -39,5 +36,5 @@
     - **Python Doctor (FR) :** [Lien](https://python.doctor/)
     - **w3schools (EN) :** [Lien](https://www.w3schools.com/)
 
-</details>
+
 
