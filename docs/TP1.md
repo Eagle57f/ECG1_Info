@@ -109,11 +109,8 @@ print(a*b, a/b, a+b, a-b, a//b, a**b) # Renvoie: 1/6 3/8 11/12 -5/12 0 0.3968502
 ```
 ## Symboles de tests
 
-|==|<|>|!=|<=|>=|
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|Egal|Strict. inf.|Strict. sup.|N'est pas égal|Inf. ou égal|Sup. ou égal|
 | Symbole | Signification |
-|:-:|:-|
+|:-:|:-:|
 | ==  | Égal |
 | <   | Strictement inférieur |
 | >   | Strictement supérieur |
