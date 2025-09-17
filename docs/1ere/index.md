@@ -1,17 +1,29 @@
----
-hide:
-  - toc
-  - navigation
----
-
-# Cours d'informatique en ECG 1-2 et ECG 2-2
-
-Sur ce site vous trouverez des cours/fiches pour apprendre le Python, ainsi que des TP (avec ce que j'ai répondu), des exercices que j'ai fait moi même avec une correction, les corrections des DS de fin d'année, et des ressources supplémentaires.
-
-Les PDF des cours de 1ère année sont de Mme. Bruni, ceux de 2ème année de M. Benaddi.
+# Cours d'informatique en ECG 1-2
 
 
-### Dépôt GitHub : [![Repo GitHub](https://img.shields.io/badge/GitHub-ECG1_Info-blue?logo=github)](https://github.com/Eagle57f/ECG1_Info/)
+## Sommaire
+- **[Cours 1 - Bases du Python](TP1.md)**
+- **[Cours 2 - Boucles for et while, tests](TP2.md)**
+- **[Cours 3 - Listes](TP3.md)**
+- **[Cours 4 - Fonctions](TP4.md)**
+- **[Cours 5 - Matrices avec Numpy](TP5.md)**
+- **[Cours 6 - Graphiques avec Matplotlib](TP6.md)**
+
+## Exercices/Ressources/Corrections
+- **[Exercices](Exercices.md)**
+- **Corrections**
+    - **PDF et Corrections des TP**
+        - [TP1](Exercices_TP1.md)
+        - [TP2](Exercices_TP2.md)
+        - [TP3](Exercices_TP3.md)
+        - [TP4](Exercices_TP4.md)
+        - [TP5](Exercices_TP5.md)
+        - [TP6](Exercices_TP6.md)
+    - **Corrections de DS**
+        - [Correction du DS Final 2024](Correction_DS_2024.md)
+        - [Correction du DS Final 2025](Correction_DS_2025.md)
+- **Ressources**
+    - [Toutes les fonctions de 1ère année](Toutes_les_fonctions_de_1ere_annee.md)
 
 
 ??? info "Quelques ressources pour approfondir"
