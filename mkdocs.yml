@@ -1,0 +1,93 @@
+extra_css:
+  - stylesheets/extra.css
+site_name: ECG1 Info
+nav:
+  - Accueil: index.md
+
+  - Cours :
+      - 1 - Bases du Python : TP1.md
+      - 2 - Boucles for et while, tests : TP2.md
+      - 3 - Listes : TP3.md
+      - 4 - Fonctions : TP4.md
+      - 5 - Matrices avec Numpy : TP5.md
+      - 6 - Graphiques avec Matplotlib : TP6.md
+  - Exercices: Exercices.md
+  - Corrections :
+      - Corrections des TP :
+        - TP1 : Exercices_TP1.md
+        - TP2 : Exercices_TP2.md
+        - TP3 : Exercices_TP3.md
+        - TP4 : Exercices_TP4.md
+        - TP5 : Exercices_TP5.md
+        - TP6 : Exercices_TP6.md
+      - Corrections de DS :
+        - Correction DS 2024 : Correction_DS_2024.md
+        - Correction DS 2025 : Correction_DS_2025.md
+  - Ressources :
+      - Programme officiel (PDF) : Ressources-Exercices-Corrections\Ressources\Programme officiel d'informatique.pdf
+      - Toutes les fonctions de 1ère année : Toutes_les_fonctions_de_1ere_annee.md
+# Palette avec toggle et choix automatique selon le navigateur
+theme:
+  name: material
+  favicon: favicon64.png
+  language: fr
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Eagle57f
+      name: Mon GitHub
+    - icon: fontawesome/solid/envelope
+      link: mailto:eagle57f@gmail.com
+      name: Me contacter
+  footer:
+    copyright:
+      text: "© 2025 — Eagle57"
+    social: true
+  palette:
+    # Mode clair par défaut
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passer en mode sombre
+    # Mode sombre si le navigateur le demande
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passer en mode clair
+
+  features:
+    - content.hide.title
+    - palette.toggle
+    - content.code.copy
+    - navigation.expand
+  highlightjs: false
+  
+
+plugins:
+  - search
+#   - include-markdown
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Eagle57f
+      name: Mon GitHub
+    - icon: fontawesome/solid/envelope
+      link: mailto:eagle57f@gmail.com
+      name: Me contacter
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
