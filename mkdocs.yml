@@ -30,8 +30,8 @@ nav:
   - 2ème année:
     - Accueil: 2eme/index.md
     - Correction des TP:
-      - TP1 : 2eme/Feuille1/Feuille1.md
-      - TP2 : 2eme/Feuille2/Feuille2.md
+      - Feuille 1 : 2eme/Feuille1/Feuille1.md
+      - Feuille 2 : 2eme/Feuille2/Feuille2.md
 
 
 # Palette avec toggle et choix automatique selon le navigateur
@@ -75,6 +75,8 @@ theme:
     - navigation.expand
     - navigation.tabs
     - navigation.indexes
+    - toc.follow
+    - navigation.top
   highlightjs: false
   
 

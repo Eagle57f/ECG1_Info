@@ -62,7 +62,7 @@ Complétez la fonction `monte_carlo_exp`.
 
 BONUS: Transformez la fonction `monte_carlo_exp` pour qu'elle fonctionne pour n'importe quelle fonction mathématique.
 
-<a href="/1ere/Ressources-Exercices-Corrections/Exercices/Exercice Méthode de Monte-Carlo - Avec Trous.py" download>**Télécharger le code à trous**</a>
+<a href="Ressources-Exercices-Corrections/Exercices/Exercice Méthode de Monte-Carlo - Avec Trous.py" download>**Télécharger le code à trous**</a>
 
 ```python
 import random as rd
