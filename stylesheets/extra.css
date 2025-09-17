@@ -1,0 +1,7 @@
+/* Bordure bleu très clair en mode clair */
+.md-typeset details,
+.md-typeset .admonition.details,
+.md-typeset details.admonition {
+  border-color: #bbdefb7e !important;
+}
+
