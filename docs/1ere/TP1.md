@@ -150,6 +150,9 @@ Il faut importer la bibliothèque math avant d'utiliser les fonctions ou variabl
 
 ## Bibliothèque fractions
 
+Permet de manipuler des fractions. Toutes les opérations possibles avec les entiers et les flottants sont aussi possibles avec les fractions.
+Les fractions sont toujours automatiquement simplifiées.
+
 Ne pas écrire `#!python from Fraction import *`, mais `#!python from fractions import *`.
 
 
@@ -161,12 +164,21 @@ from fractions import *
 numerateur=3
 denominateur=12
 a=Fraction(numerateur, denominateur)
-print(a.numerator) # Renvoie le dénominateur de la fraction simplifiée
-print(a.denominator) # Renvoie le numérateur de la fraction simplifiée
-print(a) # Renvoie la fraction simplifiée
+print(a.numerator)
+print(a.denominator)
+print(a)
 b=Fraction(2, 3)
-print(a*b, a/b, a+b, a-b, a//b, a**b) # Renvoie: 1/6 3/8 11/12 -5/12 0 0.3968502629920499  Mêmes opérations que pour les nombres (int, float).
+print(a*b, a/b, a+b, a-b, a//b, a**b)
 ```
+<div class="result" markdown>
+``` python title="Renvoie"
+1
+4  
+1/4
+1/6 3/8 11/12 -5/12 0 0.3968502629920499
+```
+</div>
+
 ## Symboles de tests
 
 | Symbole | Signification |
