@@ -12,12 +12,12 @@ hide:
 <a href="Feuille2_Perso.py" download>Télécharger ma correction</a>
 
 ### **Correction du prof :**
-```python
+```python linenums="1"
 --8<-- "docs/2eme/Feuille2/Feuille2_Prof.py"
 ```
 
 
 ### **Ma correction :**
-```python
+```python linenums="1"
 --8<-- "docs/2eme/Feuille2/Feuille2_Perso.py"
 ```

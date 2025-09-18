@@ -7,6 +7,6 @@ hide:
 
 <a href="Ressources-Exercices-Corrections/Exercices/Exercice Méthode de Monte-Carlo.py" download>**Télécharger la correction**</a>
 
-```python
+```python linenums="1"
 --8<-- "docs/1ere/Ressources-Exercices-Corrections/Exercices/Exercice Méthode de Monte-Carlo.py"
 ```

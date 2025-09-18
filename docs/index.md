@@ -8,7 +8,7 @@ hide:
 
 Sur ce site vous trouverez des cours/fiches pour apprendre le Python, ainsi que des TP (avec ce que j'ai répondu), des exercices que j'ai fait moi même avec une correction, les corrections des DS de fin d'année, et des ressources supplémentaires.
 
-Les PDF des cours de 1ère année sont de Mme. Bruni, ceux de 2ème année de M. Benaddi.
+Les PDF des TP de 1ère année sont de Mme. Bruni, ceux de 2ème année de M. Benaddi.
 
 
 ### Dépôt GitHub : [![Repo GitHub](https://img.shields.io/badge/GitHub-ECG1_Info-blue?logo=github)](https://github.com/Eagle57f/ECG1_Info/)

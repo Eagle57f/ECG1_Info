@@ -12,14 +12,14 @@
 ## Exercices/Ressources/Corrections
 - **[Exercices](Exercices.md)**
 - **Corrections**
-    - **PDF et Corrections des TP**
+    - **Corrections et PDF des TP**
         - [TP1](Exercices_TP1.md)
         - [TP2](Exercices_TP2.md)
         - [TP3](Exercices_TP3.md)
         - [TP4](Exercices_TP4.md)
         - [TP5](Exercices_TP5.md)
         - [TP6](Exercices_TP6.md)
-    - **Corrections de DS**
+    - **Corrections des DS**
         - [Correction du DS Final 2024](Correction_DS_2024.md)
         - [Correction du DS Final 2025](Correction_DS_2025.md)
 - **Ressources**

@@ -9,6 +9,6 @@ hide:
 
 <a href="TP6/TP6.py" download>Télécharger ma correction</a>
 
-```python
+```python linenums="1"
 --8<-- "docs/1ere/TP6/TP6.py"
 ```

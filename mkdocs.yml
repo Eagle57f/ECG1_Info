@@ -13,17 +13,16 @@ nav:
         - 5 - Matrices avec Numpy : 1ere/TP5.md
         - 6 - Graphiques avec Matplotlib : 1ere/TP6.md
     - Exercices: 1ere/Exercices.md
-    - Corrections :
-        - Corrections des TP :
-          - TP1 : 1ere/Exercices_TP1.md
-          - TP2 : 1ere/Exercices_TP2.md
-          - TP3 : 1ere/Exercices_TP3.md
-          - TP4 : 1ere/Exercices_TP4.md
-          - TP5 : 1ere/Exercices_TP5.md
-          - TP6 : 1ere/Exercices_TP6.md
-        - Corrections de DS :
-          - Correction DS 2024 : 1ere/Correction_DS_2024.md
-          - Correction DS 2025 : 1ere/Correction_DS_2025.md
+    - Corrections et PDF des TP :
+      - TP1 : 1ere/Exercices_TP1.md
+      - TP2 : 1ere/Exercices_TP2.md
+      - TP3 : 1ere/Exercices_TP3.md
+      - TP4 : 1ere/Exercices_TP4.md
+      - TP5 : 1ere/Exercices_TP5.md
+      - TP6 : 1ere/Exercices_TP6.md
+    - Corrections des DS :
+      - Correction DS 2024 : 1ere/Correction_DS_2024.md
+      - Correction DS 2025 : 1ere/Correction_DS_2025.md
     - Ressources :
         - Programme officiel (PDF) : 1ere/Ressources-Exercices-Corrections\Ressources\Programme officiel d'informatique.pdf
         - Toutes les fonctions de 1ère année : 1ere/Toutes_les_fonctions_de_1ere_annee.md
@@ -72,7 +71,8 @@ theme:
     - content.hide.title
     - palette.toggle
     - content.code.copy
-    - navigation.expand
+    - content.code.annotate
+    # - navigation.expand
     - navigation.tabs
     - navigation.indexes
     - toc.follow
@@ -102,5 +102,17 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.details
   - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.inlinehilite

@@ -64,7 +64,7 @@ BONUS: Transformez la fonction `monte_carlo_exp` pour qu'elle fonctionne pour n'
 
 <a href="Ressources-Exercices-Corrections/Exercices/Exercice Méthode de Monte-Carlo - Avec Trous.py" download>**Télécharger le code à trous**</a>
 
-```python
+```python linenums="1"
 import random as rd
 import math
 import matplotlib.pyplot as plt
