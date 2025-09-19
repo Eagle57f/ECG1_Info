@@ -1,6 +1,10 @@
 # En cours
 
-# Ex 2
+# Exercice 1:
+
+
+
+# Exercice 2:
 """n=10 # int(input("n ? "))
 def L(k,X, x):
     p=1
@@ -19,9 +23,10 @@ for k in range(len(l)):
 plt.grid()
 plt.show()"""
 
+
 # Exercice 3:
 
-import numpy as np
+"""import numpy as np
 
 def f(x): return x+np.log(x)
 
@@ -38,7 +43,33 @@ def newton(f, df, a, eps):
         i+=1
     return an, i
 
-print(newton(f, df, 1, 10e-10))
+print(newton(f, df, 1, 10e-10))"""
+
 
 # Exercice 4: 
+"""p=[1, 0, -2, 1]  # x^3 - 2x + 1
+def eval_poly(p, x0):
+    r=p[0]
+    for i in range(1, len(p)):
+        r=r*x0+p[i]
+    return r
+print(eval_poly(p, 2))"""
 
+
+# Exercice 5:
+
+
+
+# Exercice 6:
+"""import numpy as np
+
+def f(x): return np.exp(x)*x**3
+n=0
+S=0
+while 1/((np.e-1)*np.exp(n))>10e-4:
+    n+=1
+    S+=1/f(n)
+print(n, S)"""
+
+
+# Exercice 7:
