@@ -1,6 +1,7 @@
 extra_css:
   - stylesheets/extra.css
 site_name: ECG Info
+site_url: https://eagle57f.github.io/ECG1_Info/
 nav:
   - 1ère année:
     - Accueil: 1ere/index.md
@@ -33,7 +34,6 @@ nav:
       - Feuille 2 : 2eme/Feuille2/Feuille2.md
 
 
-# Palette avec toggle et choix automatique selon le navigateur
 theme:
   name: material
   favicon: favicon64.png
@@ -46,8 +46,6 @@ theme:
       link: mailto:eagle57f@gmail.com
       name: Me contacter
   footer:
-    copyright:
-      text: "© 2025 — Eagle57"
     social: true
   palette:
     # Mode clair par défaut
@@ -85,14 +83,8 @@ plugins:
 
 
 extra:
-  generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Eagle57f
-      name: Mon GitHub
-    - icon: fontawesome/solid/envelope
-      link: mailto:eagle57f@gmail.com
-      name: Me contacter
+  generator: true
+
 
 markdown_extensions:
   - pymdownx.highlight:
