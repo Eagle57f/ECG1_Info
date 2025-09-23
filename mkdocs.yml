@@ -38,13 +38,6 @@ theme:
   name: material
   favicon: favicon64.png
   language: fr
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Eagle57f
-      name: Mon GitHub
-    - icon: fontawesome/solid/envelope
-      link: mailto:eagle57f@gmail.com
-      name: Me contacter
   footer:
     social: true
   palette:
@@ -84,6 +77,13 @@ plugins:
 
 extra:
   generator: true
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/Eagle57f
+    name: Mon GitHub
+  - icon: fontawesome/solid/envelope
+    link: mailto:eagle57f@gmail.com
+    name: Me contacter
 
 
 markdown_extensions:
