@@ -36,6 +36,8 @@ nav:
 
 theme:
   name: material
+  icon:
+    logo: simple/python
   favicon: favicon64.png
   language: fr
   footer:
