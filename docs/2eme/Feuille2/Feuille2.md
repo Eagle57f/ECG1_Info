@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# TP1 — Exercices et correction
+# TP2 — Exercices et correction
 
 [Voir les exercices (PDF)](Feuille2.pdf)
 

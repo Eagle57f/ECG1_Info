@@ -6,4 +6,5 @@ Pour chaque TP, vous trouverez un fichier avec mes réponses, et un fichier avec
 - Correction des TP:
     - **[Correction de la Feuille 1](Feuille1/Feuille1.md)**
     - **[Correction de la Feuille 2](Feuille2/Feuille2.md)**
+    - **[Correction de la Feuille 3](Feuille3/Feuille3.md)**
 

@@ -32,6 +32,7 @@ nav:
     - Correction des TP:
       - Feuille 1 : 2eme/Feuille1/Feuille1.md
       - Feuille 2 : 2eme/Feuille2/Feuille2.md
+      - Feuille 3 : 2eme/Feuille3/Feuille3.md
 
 
 theme:
@@ -43,7 +44,6 @@ theme:
   footer:
     social: true
   palette:
-    # Mode clair par défaut
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
@@ -51,7 +51,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Passer en mode sombre
-    # Mode sombre si le navigateur le demande
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
