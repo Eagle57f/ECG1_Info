@@ -153,3 +153,4 @@ evol(30)
 
 # On remarque une évolution linéaire jusqu'à 10**-16, puis une stagnation.
 # Ceci est du à la précision des floats python (base 64 donc environ 15 à 17 decimales)."""
+
