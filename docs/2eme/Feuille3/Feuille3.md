@@ -7,9 +7,9 @@ hide:
 
 [Voir les exercices (PDF)](Feuille3.pdf)
 
-<a href="Feuille3_Prof.py" download>Télécharger la correction du prof</a>
+[Télécharger la correction du prof](Feuille3_Prof.py)
 
-<a href="Feuille3_Perso.py" download>Télécharger ma correction</a>
+[Télécharger ma correction](Feuille3_Perso.py)
 
 ### **Correction du prof :**
 ```python linenums="1"

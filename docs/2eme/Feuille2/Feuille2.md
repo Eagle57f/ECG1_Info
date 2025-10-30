@@ -5,11 +5,12 @@ hide:
 
 # TP2 — Exercices et correction
 
-[Voir les exercices (PDF)](Feuille2.pdf)
+[Voir les exercices (PDF) de 2024/2025](Feuille2_2024-2025.pdf)
 
-<a href="Feuille2_Prof.py" download>Télécharger la correction du prof</a>
+[Télécharger la correction du prof](Feuille2_Prof.py)
 
-<a href="Feuille2_Perso.py" download>Télécharger ma correction</a>
+[Télécharger ma correction du PDF 2024/2025](Feuille2_Perso.py)
+
 
 ### **Correction du prof :**
 ```python linenums="1"
@@ -17,7 +18,7 @@ hide:
 ```
 
 
-### **Ma correction :**
+### **Ma correction du PDF 2024/2025:**
 ```python linenums="1"
 --8<-- "docs/2eme/Feuille2/Feuille2_Perso.py"
 ```
