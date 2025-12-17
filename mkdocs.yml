@@ -33,6 +33,8 @@ nav:
       - Feuille 1 : 2eme/Feuille1/Feuille1.md
       - Feuille 2 : 2eme/Feuille2/Feuille2.md
       - Feuille 3 : 2eme/Feuille3/Feuille3.md
+    - Ressources:
+      - Mémo Python : 2eme/Ressources/Memo_Python.pdf
 
 
 theme:
