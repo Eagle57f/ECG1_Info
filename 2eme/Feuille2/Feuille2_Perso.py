@@ -15,7 +15,7 @@ for k in range(1,N+1):
 print(4*Rn, eps)"""
 
 # Exercice 2:
-"""n=10 # int(input("n ? "))
+n=10 # int(input("n ? "))
 def L(k,X, x):
     p=1
     for j in range(len(X)):
@@ -31,7 +31,7 @@ for k in range(len(l)):
     y=[L(k, l, xi) for xi in x]
     plt.plot(x,y)
 plt.grid()
-plt.show()"""
+plt.show()
 
 
 # Exercice 3:
@@ -126,13 +126,13 @@ print(SI(3))"""
 
 # Exercice 9
 
-"""# 2)
+# 2)
 from math import sqrt
 def h(e):
     k=0
     a=sqrt(3)/2
     b=1/2
-    while abs((9*2**k*(a/(2+b)))-(2**k*(2*a+a/b)))>e:
+    while abs((9*2**k*(a/(2+b)))-(2**k*(2*a+a/b)))>2*e:
         a=sqrt((1-b)/2)
         b=sqrt((1+b)/2)
         k+=1
@@ -144,7 +144,7 @@ import matplotlib.pyplot as plt
 def evol(p):
     l=[]
     for i in range(1,p+1):
-        l.append(h(10**-(1*i))[1])
+        l.append(h(10**-i)[1])
     plt.scatter(range(1,p+1), l)
     plt.show()
     
@@ -152,5 +152,5 @@ evol(30)
 
 
 # On remarque une évolution linéaire jusqu'à 10**-16, puis une stagnation.
-# Ceci est du à la précision des floats python (base 64 donc environ 15 à 17 decimales)."""
+# Ceci est du à la précision des floats python (base 64 donc environ 15 à 17 decimales).
 
