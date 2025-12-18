@@ -23,7 +23,7 @@
     
     
       
-        <title>Correction DS1 2024 - ECG Info</title>
+        <title>DS1 2024 - ECG Info</title>
       
     
     
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Correction DS1 2024
+              DS1 2024
             
           </span>
         </div>
@@ -1507,7 +1507,7 @@
   <span class="md-ellipsis">
     
   
-    Correction DS1 2024
+    DS1 2024
   
 
     
@@ -1525,7 +1525,7 @@
   <span class="md-ellipsis">
     
   
-    Correction DS1 2024
+    DS1 2024
   
 
     
@@ -1820,6 +1820,7 @@
 <h1 id="ds-info-ecg-2-20242025">DS Info – ECG 2 (2024–2025)</h1>
 <p><strong>A. BENADDI</strong><br />
 <strong>Lycée Kléber</strong></p>
+<p>La correcction se trouve à la fin du sujet.</p>
 <hr />
 <p>Pour tous les DS, nous importerons les librairies :</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">math</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
@@ -1955,6 +1956,84 @@ dont les composantes sont les fréquences d’apparition du rang d’obtention d
 On entre 5 au clavier et on obtient l’histogramme suivant :</p>
 <p><img alt="Histogramme des rangs d'obtention" src="../Histo_DS1_Ex4.png" /></p>
 <p>Quelle conjecture pouvez-vous émettre sur la loi de la variable aléatoire <span class="arithmatex">\(X\)</span> ?</p>
+<h1 id="correction-ds">Correction DS</h1>
+<p><strong>ECG21 &amp; ECG22</strong></p>
+<hr />
+<h2 id="les-modules-necessaires-pour-le-ds">Les modules nécessaires pour le DS</h2>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">math</span><span class="w"> </span><span class="kn">import</span> <span class="o">*</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="kn">import</span><span class="w"> </span><span class="nn">numpy.random</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">rd</span>
+</span></code></pre></div>
+<hr />
+<h2 id="exercice-1_1">Exercice 1</h2>
+<h3 id="question-1">Question 1</h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">S_n</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">([</span><span class="mi">1</span><span class="o">/</span><span class="n">k</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)])</span>
+</span></code></pre></div>
+<h3 id="question-2">Question 2</h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">n</span> <span class="o">=</span> <span class="mi">1</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="k">while</span> <span class="mi">1</span><span class="o">/</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mf">0.0001</span><span class="p">:</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    <span class="n">n</span> <span class="o">=</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="n">S_n</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">([</span><span class="mi">1</span><span class="o">/</span><span class="n">k</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)])</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;la valeur approchée de S est :&quot;</span><span class="p">,</span> <span class="n">S_n</span><span class="p">)</span>
+</span></code></pre></div>
+<hr />
+<h2 id="exercice-2_1">Exercice 2</h2>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">n</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;n = &quot;</span><span class="p">))</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">w</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;w0 =&quot;</span><span class="p">,</span> <span class="n">w</span><span class="p">)</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    <span class="n">w</span> <span class="o">=</span> <span class="n">w</span> <span class="o">+</span> <span class="n">log</span><span class="p">(</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;w&quot;</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="s2">&quot;=&quot;</span><span class="p">,</span> <span class="n">w</span><span class="p">)</span>
+</span></code></pre></div>
+<hr />
+<h2 id="exercice-3_1">Exercice 3</h2>
+<p>D’après la question <strong>e)</strong>, il suffit que :</p>
+<p>$$
+\frac{1}{(n+1)^x} \leq \varepsilon
+\iff
+n \geq \frac{1}{\varepsilon^{1/x}} - 1
+$$</p>
+<p>pour que <span class="arithmatex">\(u_n\)</span> soit une valeur approchée de <span class="arithmatex">\(S(x)\)</span> à <span class="arithmatex">\(\varepsilon\)</span> près,<br />
+ce qui conduit au script suivant :</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">evalS</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">eps</span><span class="p">):</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>    <span class="n">u</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">floor</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">eps</span><span class="o">**</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">x</span><span class="p">))):</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>        <span class="n">u</span> <span class="o">=</span> <span class="n">u</span> <span class="o">+</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">**</span><span class="p">(</span><span class="n">k</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="n">k</span><span class="o">**</span><span class="n">x</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>    <span class="k">return</span> <span class="n">u</span>
+</span></code></pre></div>
+<hr />
+<h2 id="exercice-4_1">Exercice 4</h2>
+<p>Dans ce programme, la variable <strong>M</strong> désigne le nombre de boules contenues
+dans l’urne (qui diminue au fil de l’expérience).</p>
+<p>Donc, à chaque tirage, la probabilité de tirer la boule noire est :</p>
+<p>$$
+\frac{1}{M}.
+$$</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Donner un entier naturel non nul&quot;</span><span class="p">))</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="n">S</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">N</span><span class="p">)</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10000</span><span class="p">):</span>
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>    <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>    <span class="n">M</span> <span class="o">=</span> <span class="n">N</span>
+</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>    <span class="k">while</span> <span class="n">rd</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="o">/</span><span class="n">M</span><span class="p">:</span>
+</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>        <span class="n">M</span> <span class="o">=</span> <span class="n">M</span> <span class="o">-</span> <span class="mi">1</span>
+</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>    <span class="n">S</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">S</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span> <span class="c1"># Le prof a mis S[i]=S[i]+1 mais ca ne marche pas car la liste commence avec l&#39;indice 0 alors que notre i commence à 1</span>
+</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>
+</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a><span class="nb">print</span><span class="p">(</span><span class="n">S</span><span class="o">/</span><span class="mi">10000</span><span class="p">)</span>
+</span></code></pre></div>
+<p>On sait tout d’abord que :</p>
+<div class="arithmatex">\[
+X(\Omega) = \{1, 2, 3, 4, 5\}.
+\]</div>
+<p>D’après l’histogramme donné, il semble que la variable aléatoire <span class="arithmatex">\(X\)</span> suive
+une <strong>loi uniforme</strong> sur :</p>
+<div class="arithmatex">\[
+\{1, \ldots, 5\}.
+\]</div>
 
 
 
