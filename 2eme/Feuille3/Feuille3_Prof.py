@@ -81,7 +81,7 @@ def simuleX():
 
 print('Moyenne empirique pour =', np.mean([simuleX() for k in range (10000)]))
 
-#q369
+#q3
 n=int(input('n='))
 E=0
 for k in range(n):
