@@ -272,10 +272,9 @@ dans l’urne (qui diminue au fil de l’expérience).
 
 Donc, à chaque tirage, la probabilité de tirer la boule noire est :
 
-\$\$
+$$
 \frac{1}{M}.
-\$\$
-
+$$
 
 
 ```python
