@@ -1611,6 +1611,45 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#exercice-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercice 4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercice 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1722,6 +1761,45 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#exercice-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercice 4
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercice 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1751,100 +1829,132 @@
 </span></code></pre></div>
 <hr />
 <h2 id="exercice-1">Exercice 1</h2>
-<p>Pour tout $n \in \mathbb{N}^*$, on pose :</p>
-<p>$$
+<p>Pour tout <span class="arithmatex">\(n \in \mathbb{N}^*\)</span>, on pose :</p>
+<div class="arithmatex">\[
 S_n = \sum_{k=1}^{n} \frac{1}{k^2}
 \quad \text{et} \quad
 S = \sum_{k=1}^{+\infty} \frac{1}{k^2}
-$$</p>
-<p>tel que l’on a l’encadrement suivant pour tout $n \in \mathbb{N}^*$ :</p>
-<p>$$
+\]</div>
+<p>tel que l’on a l’encadrement suivant pour tout <span class="arithmatex">\(n \in \mathbb{N}^*\)</span> :</p>
+<div class="arithmatex">\[
 S_n + \frac{1}{n+1} + \frac{1}{2(n+1)^2}
 \;\leq\;
 S
 \;\leq\;
 S_n + \frac{1}{n} + \frac{1}{2(n+1)^2}
-$$</p>
+\]</div>
 <h3 id="1">1)</h3>
-<p>Compléter la ligne d’instruction en Python qui permet de calculer la somme $S_n$,
+<p>Compléter la ligne d’instruction en Python qui permet de calculer la somme <span class="arithmatex">\(S_n\)</span>,
 pour un entier donné par l’utilisateur :</p>
-<p>$$
-    exttt{Sn = sum( \ldots \ \ldots \ \ldots )}
-$$</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">Sn</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="o">.......................</span><span class="p">)</span>
+</span></code></pre></div>
 <h3 id="2">2)</h3>
-<p>Écrire un programme Python qui affiche une valeur approchée de $S$ à $10^{-4}$ près
+<p>Écrire un programme Python qui affiche une valeur approchée de <span class="arithmatex">\(S\)</span> à <span class="arithmatex">\(10^{-4}\)</span> près
 et le nombre d’itérations nécessaires pour atteindre cette approximation.</p>
 <hr />
 <h2 id="exercice-2">Exercice 2</h2>
 <p>Pour toutes suites numériques<br />
-$u = (u_n)<em _in="\in" _mathbb_N="\mathbb{N" n="n">{n \in \mathbb{N}}$ et<br />
-$v = (v_n)</em>$,}<br />
-on définit la suite $w$ par :</p>
-<p>$$
+<span class="arithmatex">\(u = (u_n)_{n \in \mathbb{N}}\)</span> et<br />
+<span class="arithmatex">\(v = (v_n)_{n \in \mathbb{N}}\)</span>,<br />
+on définit la suite <span class="arithmatex">\(w\)</span> par :</p>
+<div class="arithmatex">\[
 \forall n \in \mathbb{N}, \quad
 w_n = \sum_{k=0}^{n} u_k\, v_{n-k}
-$$</p>
-<p>On suppose que les suites $u$ et $v$ sont définies par :</p>
-<p>$$
+\]</div>
+<p>On suppose que les suites <span class="arithmatex">\(u\)</span> et <span class="arithmatex">\(v\)</span> sont définies par :</p>
+<div class="arithmatex">\[
 \forall n \in \mathbb{N}, \quad
 u_n = \ln(n+1)
 \quad \text{et} \quad
 v_n = \frac{1}{n+1}
-$$</p>
+\]</div>
 <p>Écrire un programme en Python qui demande à l’utilisateur une valeur de l’entier
-naturel $n$, qui calcule et affiche les valeurs de :</p>
-<p>$$
+naturel <span class="arithmatex">\(n\)</span>, qui calcule et affiche les valeurs de :</p>
+<div class="arithmatex">\[
 w_0, w_1, \ldots, w_n
-$$</p>
+\]</div>
 <hr />
 <h2 id="exercice-3">Exercice 3</h2>
 <p>On s’intéresse dans cet exercice à la série :</p>
-<p>$$
+<div class="arithmatex">\[
 \sum_{n \in \mathbb{N}} \frac{(-1)^{n+1}}{n^x},
 \quad \text{pour tout } x \in \mathbb{R}.
-$$</p>
-<p>On admet que pour tout $x \in \mathbb{R}^-$, la série :</p>
-<p>$$
+\]</div>
+<p>On admet que pour tout <span class="arithmatex">\(x \in \mathbb{R}^-\)</span>, la série :</p>
+<div class="arithmatex">\[
 \sum_{n \in \mathbb{N}} \frac{(-1)^{n+1}}{n^x}
-$$</p>
+\]</div>
 <p>diverge.</p>
-<p>Soit $x \in \mathbb{R}^{+<em>}$, on note, pour tout $n \in \mathbb{N}^</em>$ :</p>
-<p>$$
+<p>Soit <span class="arithmatex">\(x \in \mathbb{R}^{+*}\)</span>, on note, pour tout <span class="arithmatex">\(n \in \mathbb{N}^*\)</span> :</p>
+<div class="arithmatex">\[
 u_n = \sum_{k=1}^{n} \frac{(-1)^{k+1}}{k^x}.
-$$</p>
+\]</div>
 <p>On admet aussi que :</p>
 <ul>
 <li>
-<p><strong>(a)</strong> Les suites $(u_{2p})<em 2p_1="2p+1">{p \in \mathbb{N}}$ et $(u</em>$})_{p \in \mathbb{N}<br />
-  sont adjacentes et convergent vers une même limite notée $S(x)$.</p>
+<p><strong>(a)</strong> Les suites <span class="arithmatex">\((u_{2p})_{p \in \mathbb{N}}\)</span> et <span class="arithmatex">\((u_{2p+1})_{p \in \mathbb{N}}\)</span><br />
+  sont adjacentes et convergent vers une même limite notée <span class="arithmatex">\(S(x)\)</span>.</p>
 </li>
 <li>
-<p><strong>(b)</strong> $\forall \varepsilon &gt; 0$, il existe $n_0 \in \mathbb{N}^*$ tel que<br />
-  $\forall n \geq n_0$,<br />
-  $|u_n - S(x)| \leq \varepsilon$.</p>
+<p><strong>(b)</strong> <span class="arithmatex">\(\forall \varepsilon &gt; 0\)</span>, il existe <span class="arithmatex">\(n_0 \in \mathbb{N}^*\)</span> tel que<br />
+<span class="arithmatex">\(\forall n \geq n_0\)</span>,<br />
+<span class="arithmatex">\(|u_n - S(x)| \leq \varepsilon\)</span>.</p>
 </li>
-<li>
+</ul>
 <p><strong>(c)</strong> La série</p>
-</li>
-</ul>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>\sum_{n \in \mathbb{N}} \frac{(-1)^{n+1}}{n^x}
-</span></code></pre></div>
+<div class="arithmatex">\[
+\sum_{n \in \mathbb{N}^*} \frac{(-1)^{n+1}}{n^x}
+\]</div>
 <p>converge et l’on a :</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>S(x) = \sum_{k=1}^{+\infty} \frac{(-1)^{k+1}}{k^x}.
-</span></code></pre></div>
+<div class="arithmatex">\[
+S(x) = \sum_{k=1}^{+\infty} \frac{(-1)^{k+1}}{k^x}.
+\]</div>
 <ul>
-<li><strong>(d)</strong> $\forall p \in \mathbb{N}^*$ :</li>
+<li><strong>(d)</strong> <span class="arithmatex">\(\forall p \in \mathbb{N}^*\)</span> :</li>
 </ul>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>u_{2p} \leq S(x) \leq u_{2p+1} \leq u_{2p-1}.
-</span></code></pre></div>
+<div class="arithmatex">\[
+u_{2p} \leq S(x) \leq u_{2p+1} \leq u_{2p-1}.
+\]</div>
 <ul>
-<li><strong>(e)</strong> $\forall n \in \mathbb{N}^*$ :</li>
+<li><strong>(e)</strong> <span class="arithmatex">\(\forall n \in \mathbb{N}^*\)</span> :</li>
 </ul>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>|u_n - S(x)| \leq \frac{1}{(n+1)^x}.
-</span></code></pre></div>
+<div class="arithmatex">\[
+|u_n - S(x)| \leq \frac{1}{(n+1)^x}.
+\]</div>
 <p>En utilisant ce qui précède, écrire une fonction en Python qui,
-étant donnés deux réels $x &gt; 0$ et $\varepsilon &gt; 0$,
-renvoie une valeur approchée de $S(x)$ à $\varepsilon$ près.</p>
+étant donnés deux réels <span class="arithmatex">\(x &gt; 0\)</span> et <span class="arithmatex">\(\varepsilon &gt; 0\)</span>,
+renvoie une valeur approchée de <span class="arithmatex">\(S(x)\)</span> à <span class="arithmatex">\(\varepsilon\)</span> près.</p>
+<h2 id="exercice-4">Exercice 4</h2>
+<p>L’urne U1 contient <span class="arithmatex">\(N\)</span> boules :</p>
+<ul>
+<li><span class="arithmatex">\((N - 1)\)</span> boules blanches  </li>
+<li><span class="arithmatex">\(1\)</span> boule noire  </li>
+</ul>
+<p>On effectue des tirages sans remise dans l’urne U1 jusqu’à l’obtention de la boule noire.
+On note <span class="arithmatex">\(X\)</span> la variable aléatoire qui prend pour valeur le nombre de tirages nécessaires
+pour l’obtention de la boule noire.</p>
+<h3 id="1_1">1)</h3>
+<p>On simule 10000 fois cette expérience aléatoire.<br />
+Recopier et compléter le programme Python suivant pour qu’il affiche un vecteur,
+dont les composantes sont les fréquences d’apparition du rang d’obtention de la boule noire :</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Donner un entier naturel non nul&#39;</span><span class="p">))</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">S</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">N</span><span class="p">)</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10000</span><span class="p">):</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    <span class="n">M</span> <span class="o">=</span> <span class="o">...</span>  <span class="c1"># La variable M désigne le nombre de boules contenues dans l’urne</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    <span class="k">while</span> <span class="o">...</span> <span class="p">:</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>        <span class="n">i</span> <span class="o">=</span> <span class="o">...</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>        <span class="n">M</span> <span class="o">=</span> <span class="o">...</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>    <span class="n">S</span><span class="p">[</span><span class="o">...</span><span class="p">]</span> <span class="o">=</span> <span class="o">...</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="nb">print</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+</span></code></pre></div>
+<h3 id="2_1">2)</h3>
+<p>On exécute le programme complété ci-dessus.
+On entre 5 au clavier et on obtient l’histogramme suivant :</p>
+<p><img alt="Histogramme des rangs d'obtention" src="../Histo_DS1_Ex4.png" /></p>
+<p>Quelle conjecture pouvez-vous émettre sur la loi de la variable aléatoire <span class="arithmatex">\(X\)</span> ?</p>
 
 
 
@@ -1925,6 +2035,10 @@ renvoie une valeur approchée de $S(x)$ à $\varepsilon$ près.</p>
     
     
       <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
