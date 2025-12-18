@@ -246,12 +246,11 @@ for k in range(1, n+1):
 
 D’après la question **e)**, il suffit que :
 
-\$\$
+$$
 \frac{1}{(n+1)^x} \leq \varepsilon
 \iff
 n \geq \frac{1}{\varepsilon^{1/x}} - 1
-\$\$
-
+$$
 pour que $u_n$ soit une valeur approchée de $S(x)$ à $\varepsilon$ près,  
 ce qui conduit au script suivant :
 
