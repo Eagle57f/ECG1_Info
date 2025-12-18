@@ -35,6 +35,8 @@ nav:
       - Feuille 3 : 2eme/Feuille3/Feuille3.md
     - Ressources:
       - Mémo Python : 2eme/Ressources/Memo_Python.pdf
+    - DS:
+      - DS1 2024 : 2eme/DS/DS1.md
 
 
 theme:
@@ -106,7 +108,14 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
   - admonition
   - attr_list
   - md_in_html
   - pymdownx.inlinehilite
+
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
