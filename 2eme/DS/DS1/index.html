@@ -1991,12 +1991,10 @@ On entre 5 au clavier et on obtient l’histogramme suivant :</p>
 <hr />
 <h2 id="exercice-3_1">Exercice 3</h2>
 <p>D’après la question <strong>e)</strong>, il suffit que :</p>
-<p>$$
-\frac{1}{(n+1)^x} \leq \varepsilon
-\iff
-n \geq \frac{1}{\varepsilon^{1/x}} - 1
-$$
-pour que <span class="arithmatex">\(u_n\)</span> soit une valeur approchée de <span class="arithmatex">\(S(x)\)</span> à <span class="arithmatex">\(\varepsilon\)</span> près,<br />
+<div class="arithmatex">\[
+\frac{1}{(n+1)^x} \leq \varepsilon \iff n \geq \frac{1}{\varepsilon^{1/x}} - 1
+\]</div>
+<p>pour que <span class="arithmatex">\(u_n\)</span> soit une valeur approchée de <span class="arithmatex">\(S(x)\)</span> à <span class="arithmatex">\(\varepsilon\)</span> près,<br />
 ce qui conduit au script suivant :</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">evalS</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">eps</span><span class="p">):</span>
 </span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>    <span class="n">u</span> <span class="o">=</span> <span class="mi">0</span>
@@ -2021,9 +2019,11 @@ dans l’urne (qui diminue au fil de l’expérience).</p>
 </span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>    <span class="k">while</span> <span class="n">rd</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="o">/</span><span class="n">M</span><span class="p">:</span>
 </span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
 </span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>        <span class="n">M</span> <span class="o">=</span> <span class="n">M</span> <span class="o">-</span> <span class="mi">1</span>
-</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>    <span class="n">S</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">S</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span> <span class="c1"># Le prof a mis S[i]=S[i]+1 mais ca ne marche pas car la liste commence avec l&#39;indice 0 alors que notre i commence à 1</span>
-</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>
-</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a><span class="nb">print</span><span class="p">(</span><span class="n">S</span><span class="o">/</span><span class="mi">10000</span><span class="p">)</span>
+</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>    <span class="n">S</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">S</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span> <span class="c1"># Le prof a mis S[i]=S[i]+1 mais ca ne marche</span>
+</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>                        <span class="c1"># pas car la liste commence avec l&#39;indice 0</span>
+</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a>                        <span class="c1"># alors que notre i commence à 1.</span>
+</span><span id="__span-8-13"><a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a>
+</span><span id="__span-8-14"><a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a><span class="nb">print</span><span class="p">(</span><span class="n">S</span><span class="o">/</span><span class="mi">10000</span><span class="p">)</span>
 </span></code></pre></div>
 <p>On sait tout d’abord que :</p>
 <div class="arithmatex">\[
