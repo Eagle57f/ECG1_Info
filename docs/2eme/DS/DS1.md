@@ -247,10 +247,9 @@ for k in range(1, n+1):
 D’après la question **e)**, il suffit que :
 
 $$
-\frac{1}{(n+1)^x} \leq \varepsilon
-\iff
-n \geq \frac{1}{\varepsilon^{1/x}} - 1
+\frac{1}{(n+1)^x} \leq \varepsilon \iff n \geq \frac{1}{\varepsilon^{1/x}} - 1
 $$
+
 pour que $u_n$ soit une valeur approchée de $S(x)$ à $\varepsilon$ près,  
 ce qui conduit au script suivant :
 
@@ -286,7 +285,9 @@ for k in range(10000):
     while rd.random() > 1/M:
         i = i + 1
         M = M - 1
-    S[i-1] = S[i-1] + 1 # Le prof a mis S[i]=S[i]+1 mais ca ne marche pas car la liste commence avec l'indice 0 alors que notre i commence à 1
+    S[i-1] = S[i-1] + 1 # Le prof a mis S[i]=S[i]+1 mais ca ne marche
+                        # pas car la liste commence avec l'indice 0
+                        # alors que notre i commence à 1.
 
 print(S/10000)
 ```
