@@ -19,7 +19,7 @@ print('la valeur approchée de pi à ', epsilone, 'près est', 4*Rn)
 def Lagrange(L,x,k):  #Lk(x) L=[x0,x1...xn]
     n=len(L)
     p=1
-    for j in range (0,n):
+    for j in range (0,n+1):
         if j!=k:
             p=p*(x-L[j]/(L[k]-L[j]))
     return p
