@@ -36,7 +36,8 @@ nav:
     - Ressources:
       - Mémo Python : 2eme/Ressources/Memo_Python.pdf
     - DS:
-      - DS1 2024 : 2eme/DS/DS1.md
+      - DS1 2024 : 2eme/DS/DS1_2024.md
+      - DS1 2023 : 2eme/DS/DS1_2023.md
 
 
 theme:

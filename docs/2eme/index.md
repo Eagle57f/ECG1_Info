@@ -10,4 +10,5 @@
     - **[Mémo Python](Ressources/Memo_Python.pdf)**
 
 - DS avec sujet et correction:
-    - **[DS1 2024](DS/DS1.md)**
+    - **[DS1 2024](DS/DS1_2024.md)**
+    - **[DS1 2023](DS/DS1_2023.md)**
