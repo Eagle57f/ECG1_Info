@@ -36,9 +36,9 @@ for k in range (0,n):
     y=Lagrange(L,x,k)  #calcul des images de l'intervalle d'étude x
     plt.plot(x,y) #représentation de x en fct de y
 plt.grid()
-plt.grid
+plt.show()
 
- #exercice 3
+#exercice 3
 
 def f(x):
     y= x + np.log(x)
