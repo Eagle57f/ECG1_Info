@@ -20,7 +20,7 @@
         - [TP5](Exercices_TP5.md)
         - [TP6](Exercices_TP6.md)
     - **Corrections des DS**
-        - [Correction du DS Final 2024](Correction_DS_2024.md)
+        - [DS Final 2024](Correction_DS_2024.md)
         - [Correction du DS Final 2025](Correction_DS_2025.md)
 - **Ressources**
     - [Toutes les fonctions de 1ère année](Toutes_les_fonctions_de_1ere_annee.md)
