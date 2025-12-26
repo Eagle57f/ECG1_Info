@@ -1,4 +1,4 @@
-# Cours d'informatique en ECG 2-2
+# Cours d'informatique de 2ème année
 
 ## Sommaire
 - Correction des TP:

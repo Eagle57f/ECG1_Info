@@ -1,4 +1,4 @@
-# Cours d'informatique en ECG 1-2
+# Cours d'informatique de 1ère année
 
 
 ## Sommaire

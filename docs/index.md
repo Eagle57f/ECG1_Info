@@ -4,9 +4,9 @@ hide:
   - navigation
 ---
 
-# Cours d'informatique en ECG 1-2 et ECG 2-2
+# Cours d'informatique en ECG
 
-Sur ce site vous trouverez des cours/fiches pour apprendre le Python, ainsi que des TP (avec ce que j'ai répondu), des exercices que j'ai fait moi même avec une correction, les corrections des DS de fin d'année, et des ressources supplémentaires.
+Sur ce site vous trouverez des cours/fiches pour apprendre le Python, ainsi que les TP de 1ère et 2ème année, des exercices que j'ai fait moi même avec une correction, les DS avec correction, et des ressources supplémentaires.
 
 Les PDF des TP de 1ère année sont de Mme. Bruni, ceux de 2ème année de M. Benaddi.
 
