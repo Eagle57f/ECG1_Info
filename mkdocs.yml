@@ -41,27 +41,28 @@ nav:
 
 
 theme:
-  name: material
+  variant: modern
   icon:
     logo: simple/python
   favicon: favicon64.png
   language: fr
   footer:
     social: true
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/brightness-7
+        icon: lucide/sun
         name: Passer en mode sombre
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: cyan
+      accent: cyan
       toggle:
-        icon: material/brightness-4
+        icon: lucide/moon
         name: Passer en mode clair
 
   features:

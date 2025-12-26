@@ -1,0 +1,106 @@
+[project]
+site_name = "ECG Info"
+title = "ECG Info"
+description = "ECG1_Info_Zensica"
+url = "https://eagle57f.github.io/ECG1_Info/"
+language = "fr"
+
+[theme]
+logo = "simple/python"
+favicon = "favicon64.png"
+primary_color = "indigo"
+accent_color = "indigo"
+
+[theme.features]
+content_hide_title = true
+palette_toggle = true
+content_code_copy = true
+content_code_annotate = true
+navigation_tabs = true
+navigation_indexes = true
+toc_follow = true
+navigation_top = true
+
+[theme.social]
+github = "https://github.com/Eagle57f"
+email = "eagle57f@gmail.com"
+
+[[nav]]
+title = "1ère année"
+children = [
+    { title = "Accueil", path = "1ere/index.md" },
+    { title = "Cours", children = [
+        { title = "1 - Bases du Python", path = "1ere/TP1.md" },
+        { title = "2 - Boucles for et while, tests", path = "1ere/TP2.md" },
+        { title = "3 - Listes", path = "1ere/TP3.md" },
+        { title = "4 - Fonctions", path = "1ere/TP4.md" },
+        { title = "5 - Matrices avec Numpy", path = "1ere/TP5.md" },
+        { title = "6 - Graphiques avec Matplotlib", path = "1ere/TP6.md" }
+    ]},
+    { title = "Exercices", path = "1ere/Exercices.md" },
+    { title = "Corrections et PDF des TP", children = [
+        { title = "TP1", path = "1ere/Exercices_TP1.md" },
+        { title = "TP2", path = "1ere/Exercices_TP2.md" },
+        { title = "TP3", path = "1ere/Exercices_TP3.md" },
+        { title = "TP4", path = "1ere/Exercices_TP4.md" },
+        { title = "TP5", path = "1ere/Exercices_TP5.md" },
+        { title = "TP6", path = "1ere/Exercices_TP6.md" }
+    ]},
+    { title = "Corrections des DS", children = [
+        { title = "DS 2024", path = "1ere/Correction_DS_2024.md" },
+        { title = "Correction DS 2025", path = "1ere/Correction_DS_2025.md" }
+    ]},
+    { title = "Ressources", children = [
+        { title = "Programme officiel (PDF)", path = "1ere/Ressources-Exercices-Corrections/Ressources/Programme officiel d'informatique.pdf" },
+        { title = "Toutes les fonctions de 1ère année", path = "1ere/Toutes_les_fonctions_de_1ere_annee.md" }
+    ]}
+]
+
+[[nav]]
+title = "2ème année"
+children = [
+    { title = "Accueil", path = "2eme/index.md" },
+    { title = "Correction des TP", children = [
+        { title = "Feuille 1", path = "2eme/Feuille1/Feuille1.md" },
+        { title = "Feuille 2", path = "2eme/Feuille2/Feuille2.md" },
+        { title = "Feuille 3", path = "2eme/Feuille3/Feuille3.md" }
+    ]},
+    { title = "Ressources", children = [
+        { title = "Mémo Python", path = "2eme/Ressources/Memo_Python.pdf" }
+    ]},
+    { title = "DS", children = [
+        { title = "DS1 2024", path = "2eme/DS/DS1_2024.md" },
+        { title = "DS1 2023", path = "2eme/DS/DS1_2023.md" }
+    ]}
+]
+
+[markdown]
+extensions = [
+    "pymdownx.highlight",
+    "pymdownx.details",
+    "pymdownx.inlinehilite",
+    "pymdownx.snippets",
+    "pymdownx.superfences",
+    "pymdownx.tabbed",
+    "pymdownx.arithmatex",
+    "admonition",
+    "attr_list",
+    "md_in_html"
+]
+
+[markdown.pymdownx-highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+
+[markdown.pymdownx-arithmatex]
+generic = true
+
+[build]
+docs_dir = "docs"
+site_dir = "site"
+extra_css = ["stylesheets/extra.css"]
+extra_javascript = [
+    "javascripts/mathjax.js",
+    "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
+]
