@@ -1,0 +1,138 @@
+[project]
+site_name = "ECG Info"
+site_url = "https://eagle57f.github.io/ECG1_Info/"
+
+extra_css = ["stylesheets/extra.css"]
+
+extra_js = ["javascripts/mathjax.js", "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"]
+
+nav = [
+  {"Accueil" = "index.md"},
+  {"1ère année" = [
+    {"Accueil" = "1ere/index.md"},
+    {"Cours" = [
+      {"1 - Bases du Python" = "1ere/TP1.md"},
+      {"2 - Boucles for et while, tests" = "1ere/TP2.md"},
+      {"3 - Listes" = "1ere/TP3.md"},
+      {"4 - Fonctions" = "1ere/TP4.md"},
+      {"5 - Matrices avec Numpy" = "1ere/TP5.md"},
+      {"6 - Graphiques avec Matplotlib" = "1ere/TP6.md"},
+    ]},
+    {"Exercices" = "1ere/Exercices.md"},
+    {"Corrections et PDF des TP" = [
+      {"TP1" = "1ere/Exercices_TP1.md"},
+      {"TP2" = "1ere/Exercices_TP2.md"},
+      {"TP3" = "1ere/Exercices_TP3.md"},
+      {"TP4" = "1ere/Exercices_TP4.md"},
+      {"TP5" = "1ere/Exercices_TP5.md"},
+      {"TP6" = "1ere/Exercices_TP6.md"},
+    ]},
+    {"Corrections des DS" = [
+      {"DS 2024" = "1ere/Correction_DS_2024.md"},
+      {"Correction DS 2025" = "1ere/Correction_DS_2025.md"}
+    ]},
+    {"Ressources" = [
+      {"Programme officiel (PDF)" = "1ere/Ressources-Exercices-Corrections/Ressources/Programme officiel d'informatique.pdf"},
+      {"Toutes les fonctions de 1ère année" = "1ere/Toutes_les_fonctions_de_1ere_annee.md"}
+    ]}
+  ]},
+  {"2ème année" = [
+    {"Accueil" = "2eme/index.md"},
+    {"Correction des TP" = [
+      {"Feuille 1" = "2eme/Feuille1/Feuille1.md"},
+      {"Feuille 2" = "2eme/Feuille2/Feuille2.md"},
+      {"Feuille 3" = "2eme/Feuille3/Feuille3.md"}
+    ]},
+    {"Ressources" = [{"Mémo Python" = "2eme/Ressources/Memo_Python.pdf"}]},
+    {"DS" = [
+      {"DS1 2024" = "2eme/DS/DS1_2024.md"},
+      {"DS1 2023" = "2eme/DS/DS1_2023.md"}
+    ]}
+  ]}
+]
+
+
+[project.theme]
+variant = "modern"
+favicon = "favicon64.png"
+language = "fr"
+
+features = [
+    "content.hide.title",
+    "palette.toggle",
+    "content.code.copy",
+    "content.code.annotate",
+    # "navigation.expand",
+    "navigation.tabs",
+    "navigation.indexes",
+    "toc.follow",
+    "navigation.top",
+]
+
+
+[project.theme.icon]
+logo = "simple/python"
+
+[project.theme.footer]
+social = true
+
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "lucide/sun"
+toggle.name = "Passer en mode sombre"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "cyan"
+accent = "cyan"
+toggle.icon = "lucide/moon"
+toggle.name = "Passer en mode clair"
+
+
+
+[project.extra]
+generator = true
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/Eagle57f"
+name = "Mon GitHub"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/envelope"
+link = "mailto:eagle57f@gmail.com"
+name = "Me contacter"
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "_span"
+pygments_lang_class = true
+
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.snippets]
+# auto_append = "includes/abbreviations.md"
+
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
+

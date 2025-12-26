@@ -1,5 +1,3 @@
-extra_css:
-  - stylesheets/extra.css
 site_name: ECG Info
 site_url: https://eagle57f.github.io/ECG1_Info/
 nav:
@@ -78,10 +76,6 @@ theme:
   highlightjs: false
   
 
-plugins:
-  - search
-
-
 extra:
   generator: true
   social:
@@ -115,8 +109,10 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
-  - pymdownx.inlinehilite
 
+
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/mathjax.js
