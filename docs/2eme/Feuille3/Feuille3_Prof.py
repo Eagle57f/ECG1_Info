@@ -170,3 +170,4 @@ N=int(input('N='))
 P=float(input('P='))
 MOYENNE=np.mean(GEOM(P,N))
 print(('Espérance=', MOYENNE))
+
