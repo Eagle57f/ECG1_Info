@@ -133,10 +133,23 @@ nb_colonnes=2
 for i in range(1, nb_lignes+1):
     nb_lancers=20*i
     x=np.arange(1,nb_lancers+1 )
-    y=np.floor(6*random.random(nb_lancers))+1
+    y=np.floor(nb_faces*random.random(nb_lancers))+1
     plt.subplot ( nb_lignes , nb_colonnes , nb_colonnes*(i-1)+1)
     plt.bar(x,y)
     plt.subplot ( nb_lignes , nb_colonnes , nb_colonnes*(i-1)+2)
-    plt.hist(y, range = (0, 7), bins = 7, color = "yellow",edgecolor = "red",density = True)
+    plt.hist(y, range = (0, nb_faces+1), bins = nb_faces+1, color = "yellow",edgecolor = "red", density = True)
+
+plt.show()
+
+
+nb_lignes=3
+nb_colonnes=3
+for i in range(1, nb_lignes+1):
+    for j in range(1, nb_colonnes+1):
+        nb_lancers=20*i
+        x=np.arange(1,nb_lancers+1 )
+        y=np.floor(nb_faces*random.random(nb_lancers))+1
+        plt.subplot ( nb_lignes , nb_colonnes , nb_colonnes*(i-1)+j)
+        plt.hist(y, range = (0, nb_faces+1), bins = nb_faces+1, color = "yellow",edgecolor = "red", density = True)
 
 plt.show()
