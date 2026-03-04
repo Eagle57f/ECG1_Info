@@ -158,5 +158,30 @@ print(esperance(10,5))
 # Ainsi P(J et P séparés par m personnes)=2*(n-(m+1))/(n(n-1))
 # 
 # Soit f(x)=2*(n-(x+1))/(n(n-1))
+# On dérive, et on obtient :
 # max de f(x) pour x dans [0,n-2] atteint en x=0
 # Donc la probabilité est maximale quand J et P sont côte à côte
+
+def gen_l(n):
+    l=list(range(1,n+1))
+    rd.shuffle(l)
+    return l
+
+def expe(n):
+    l=gen_l(n)
+    i=l.index(1)
+    j=l.index(2)
+    return abs(i-j)-1
+
+def esperance(n):
+    s=0
+    r=[expe(n) for _ in range(1000)]
+    for i in r:
+        s=s+i
+    return s/1000, r
+print(esperance(10))
+
+from matplotlib import pyplot as plt
+_, r=esperance(10)
+plt.hist(r, bins=9, density=True)
+plt.show()
