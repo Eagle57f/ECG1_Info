@@ -45,7 +45,10 @@ nav = [
     {"TP" = [
       {"Feuille 1" = "2eme/Feuille1/Feuille1.md"},
       {"Feuille 2" = "2eme/Feuille2/Feuille2.md"},
-      {"Feuille 3" = "2eme/Feuille3/Feuille3.md"}
+      {"Feuille 3" = "2eme/Feuille3/Feuille3.md"},
+      {"Feuille 4" = "2eme/Feuille4/Feuille4.md"},
+      {"Feuille 5" = "2eme/Feuille5/Feuille5.md"},
+      {"Feuille 6" = "2eme/Feuille6/Feuille6.md"}
     ]},
     {"DS" = [
       {"DS1 2024" = "2eme/DS/DS1_2024.md"},

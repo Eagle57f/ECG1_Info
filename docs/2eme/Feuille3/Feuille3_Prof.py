@@ -171,3 +171,27 @@ P=float(input('P='))
 MOYENNE=np.mean(GEOM(P,N))
 print(('Espérance=', MOYENNE))
 
+#ex8
+
+nb_faces=int(input("Nombre de faces:"))
+nb_lignes=5
+nb_colonnes=2
+for i in range (1, nb_lignes+1):
+    nb_lancers=20*i
+    x=np.arange(1,nb_lancers+1)
+    y=np.floor(nb_faces*rd.random(nb_lancers))+1
+    plt.subplot(nb_lignes,nb_colonnes, nb_colonnes*(i-1)+1)
+    plt.bar(x,y)
+    plt.subplot(nb_lignes, nb_colonnes, nb_colonnes*(i-1)+2)
+    plt.hist(y, range =(0, nb_faces), bins=7, color='yellow', edgecolor='red', density=True)
+    
+#question 3 : modif
+nb_faces=int(input("Nombre de faces:"))
+nb_lignes=3
+nb_colonnes=3
+for i in range (1, nb_lignes+1):
+    for j in range (1, nb_colonnes+1):
+        nb_lancers=int(input('donner le nombre de lancers n='))
+        y=np.floor(nb_faces*rd.random(nb_lancers))+1
+        plt.subplot(nb_lignes, nb_colonnes, nb_colonnes*(i-1)+j)
+        plt.hist(y, range=(0,7), bins=7, color='yellow', edgecolor='red', density=True)

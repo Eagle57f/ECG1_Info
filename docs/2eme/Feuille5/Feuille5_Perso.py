@@ -15,7 +15,7 @@ def f(x,y):
 x=np.linspace(-1,1,n)
 y=np.linspace(-1,1,n)
 X, Y = np.meshgrid(x,y)
-# ax.plot_surface(X, Y, f(X, Y), cmap='viridis')
+ax.plot_surface(X, Y, f(X, Y), cmap='viridis')
 # plt.show()
 
 
@@ -30,3 +30,5 @@ X, Y = np.meshgrid(x,y)
 ax.plot_surface(X, Y, exo2("c", X, Y), cmap='viridis')
 plt.show()
 
+plt.contour(X,Y,exo2("c", X, Y), 10)
+plt.show()
