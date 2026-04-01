@@ -6,8 +6,10 @@ extra_css = ["stylesheets/extra.css"]
 
 extra_javascript = [
     "javascripts/mathjax.js",
+    "javascripts/social-icon-theme.js",
     "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
 ]
+
 
 
 nav = [
@@ -64,6 +66,11 @@ variant = "modern"
 favicon = "favicon64.png"
 language = "fr"
 
+
+custom_dir = "overrides"
+
+
+
 features = [
     "content.hide.title",
     "palette.toggle",
@@ -117,6 +124,12 @@ icon = "fontawesome/solid/envelope"
 link = "mailto:eagle57f@gmail.com"
 name = "Me contacter"
 
+[[project.extra.social]]
+icon = "custom/triforce"
+link = "https://eagle57f.github.io/"
+name = "Site"
+
+
 [project.markdown_extensions.pymdownx.highlight]
 anchor_linenums = true
 line_spans = "_span"
@@ -142,4 +155,11 @@ generic = true
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
+
+
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+options.custom_icons = ["overrides/.icons"]
 
