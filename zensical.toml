@@ -67,7 +67,6 @@ favicon = "favicon64.png"
 language = "fr"
 
 
-custom_dir = "overrides"
 
 
 
@@ -125,7 +124,7 @@ link = "mailto:eagle57f@gmail.com"
 name = "Me contacter"
 
 [[project.extra.social]]
-icon = "custom/triforce"
+icon = "material/triforce"
 link = "https://eagle57f.github.io/"
 name = "Site"
 
@@ -155,11 +154,4 @@ generic = true
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
-
-
-
-[project.markdown_extensions.pymdownx.emoji]
-emoji_index = "zensical.extensions.emoji.twemoji"
-emoji_generator = "zensical.extensions.emoji.to_svg"
-options.custom_icons = ["overrides/.icons"]
 
