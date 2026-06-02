@@ -127,8 +127,7 @@ plt.show() # Affiche le graphique
 
 ## Exemples
 
-Voir [Révisions sur les fonctions.ipynb](TPs%20Capytale/Révisions%20sur%20les%20fonctions.ipynb).
-
+Voir <a href="../1ere/TPs%20Capytale/Révisions%20sur%20les%20fonctions.ipynb" download>Révisions sur les fonctions.ipynb</a>
 
 Fiche de l'Académie de Versailles (donnée par la prof):
 [Fiche PDF](TP6/tuto_python_matplotlib.pdf)
