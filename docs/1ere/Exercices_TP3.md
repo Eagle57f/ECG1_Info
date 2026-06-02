@@ -5,9 +5,9 @@ hide:
 
 # TP3 — Exercices et correction
 
-[Voir les exercices (PDF)](TP3/TP%203.pdf)
+[Voir les exercices (PDF)](../1ere/TP3/TP%203.pdf)
 
-<a href="TP3/TP3.py" download>Télécharger ma correction</a>
+<a href="../1ere/TP3/TP3.py" download>Télécharger ma correction</a>
 
 ```python linenums="1"
 --8<-- "docs/1ere/TP3/TP3.py"
