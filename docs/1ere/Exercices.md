@@ -8,19 +8,19 @@
 
 On tire aléatoirement trois cartes d'un jeu de n cartes (sans remise), n>4, les cartes sont numérotées de 0 à n-1. X est la variable aléatoire qui représente la somme des valeurs des cartes tirées.
 
-1) Simulez par une fonction X(n) X pour 20 cartes, et renvoyez la valeur de X.
+1. Simulez par une fonction X(n) X pour 20 cartes, et renvoyez la valeur de X.
 
-2) a. Simulez par une fonction Xk(n, k) k tirages, et renvoyez la moyenne de X sur ces k tirages.
+2. a. Simulez par une fonction Xk(n, k) k tirages, et renvoyez la moyenne de X sur ces k tirages.
 
-   b. Renvoyez également par la fonction Xk(n, k) le pourcentage de fois où X est supérieur à 2*n.
+2. b. Renvoyez également par la fonction Xk(n, k) le pourcentage de fois où X est supérieur à 2*n.
 
-3) a. Affichez un graphique de la moyenne de X en fonction de n, pour n variant de 5 à 200, et k=1000.
+3. a. Affichez un graphique de la moyenne de X en fonction de n, pour n variant de 5 à 200, et k=1000.
 
-   b. Affichez sur ce même graphique le pourcentage de fois où X est supérieur à 2*n en fonction de n, pour n variant de 5 à 200, et k=1000.
+3. b. Affichez sur ce même graphique le pourcentage de fois où X est supérieur à 2*n en fonction de n, pour n variant de 5 à 200, et k=1000.
 
-   c. Affichez la droite d'équation y=1.5x en pointillés rouges sur le graphique précédent, la droite doit être derrière les autres courbes sur le graphique (il faut donc mettre la ligne de code pour créer la droite avant celles pour créer les courbes).
+3. c. Affichez la droite d'équation y=1.5x en pointillés rouges sur le graphique précédent, la droite doit être derrière les autres courbes sur le graphique (il faut donc mettre la ligne de code pour créer la droite avant celles pour créer les courbes).
 
-   d. Ajoutez un titre, des labels aux axes, une grille et une légende.
+3. d. Ajoutez un titre, des labels aux axes, une grille et une légende.
 
 
 ### Exercice 2: Chaîne de Markov
@@ -28,18 +28,22 @@ On tire aléatoirement trois cartes d'un jeu de n cartes (sans remise), n>4, les
 #### [Correction](Exercice_Probabilites_2.md)
 
   On considère un système avec 3 états numérotés 0, 1, et 2. Le système évolue de manière probabiliste selon les transitions suivantes:
+
   - Au temps t=0, le système est dans l'état 0 avec une probabilité de 1.
+
   - Si l'état actuel est 0, il peut passer à 0 avec une probabilité de 0.3, à 1 avec une probabilité de 0.4, et à 2 avec une probabilité de 0.3.
+
   - Si l'état actuel est 1, il peut passer à 0 avec une probabilité de 0.2, à 1 avec une probabilité de 0.5, et à 2 avec une probabilité de 0.3.
+
   - Si l'état actuel est 2, il peut passer à 0 avec une probabilité de 0.6, à 1 avec une probabilité de 0.3, et à 2 avec une probabilité de 0.1.
 
   La variable aléatoire X représente l'état du système à chaque instant t.
 
-1) Créez une fonction transition_etat(etat) qui prend l'état actuel en entrée et renvoie le nouvel état après une transition aléatoire en fonction des probabilités données, affichez le nouvel état avec comme état actuel l'état 1.
+1. Créez une fonction transition_etat(etat) qui prend l'état actuel en entrée et renvoie le nouvel état après une transition aléatoire en fonction des probabilités données, affichez le nouvel état avec comme état actuel l'état 1.
 
-2) Créez une fonction simulation_markov(k) qui simule k transitions successives et renvoie la suite d'états traversés grâce à une liste, affichez cette liste pour k=20.
+2. Créez une fonction simulation_markov(k) qui simule k transitions successives et renvoie la suite d'états traversés grâce à une liste, affichez cette liste pour k=20.
 
-3) Créez une fonction pourcentages_etats(etats) qui prend en entrée la liste des états et renvoie le pourcentage de fois où le système est dans l'état 0, 1 ou 2 après k transitions. Affichez ces pourcentages pour k=20.
+3. Créez une fonction pourcentages_etats(etats) qui prend en entrée la liste des états et renvoie le pourcentage de fois où le système est dans l'état 0, 1 ou 2 après k transitions. Affichez ces pourcentages pour k=20.
 
 
 ## Méthode de Monte-Carlo
@@ -50,8 +54,10 @@ Méthode de Monte-Carlo pour calculer l'aire sous la courbe de `exp(x)` entre a 
 
 
 Explication de la méthode de Monte-Carlo pour la fonction `exp`:
-1. On choisit un intervalle [a, b] et on génère n_points points aléatoires dans un rectangle de largeur b-a et de hauteur `max(exp(t))` pour t allant de a à b.
+1. On choisit un intervalle `[a, b]` et on génère n_points points aléatoires dans un rectangle de largeur b-a et de hauteur `max(exp(t))` pour t allant de a à b.
+
 2. On compte combien de ces points sont sous la courbe de `exp(x)`.
+
 3. L'aire sous la courbe est approximée par le ratio du nombre de points sous la courbe sur le nombre total de points, multiplié par l'aire du rectangle.
 
 Consigne :
